@@ -1,6 +1,9 @@
 # Parts of OS
 ![[Drawing 2023-03-23 00.23.49.excalidraw]]  .
 ## Kernel 
+
+^1b654e
+
 This is the core of OS
 It provides interface to the hardware and software
 	The drivers are in the kernel
@@ -12,7 +15,7 @@ Previlege -> Authority it has
 It handles memory directly
 
 ## Shell 
-It allows us to directly interact with [kernel]($) 
+It allows us to directly interact with [[Kernel]]
 
 # Dual Mode
 Any application runs in two modes

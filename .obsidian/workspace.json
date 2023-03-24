@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d109f2ff6edcc70",
+        "id": "8fc4ced189977886",
         "type": "tabs",
         "children": [
           {
-            "id": "bbfe2cb4fde83485",
+            "id": "c7d2b270ebfe51ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1ef58598afcd8ea2",
+  "active": "c7d2b270ebfe51ec",
   "lastOpenFiles": [
-    "Operating System/Introduction.md",
+    "Operating System/Introduction to Os.md",
     "Operating System/Process.md",
+    "Untitled.canvas",
     "$.md",
     "Excalidraw/Drawing 2023-03-23 02.30.48.excalidraw.md",
     "Excalidraw/Drawing 2023-03-23 02.30.48.excalidraw.png",
@@ -172,7 +173,6 @@
     "CompilerDesign/Introduction.md",
     "Theory of Computation",
     "2023-02-23.md",
-    "Untitled.canvas",
     "Untitled 1.md",
     "CompilerDesign"
   ]
