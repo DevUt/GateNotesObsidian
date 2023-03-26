@@ -68,3 +68,4 @@ It happens in two steps
 Transitions that are made by process' own will
 1. Running -> Terminated
 2. Running -> Waiting
+

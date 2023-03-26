@@ -1,4 +1,8 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-tikzjax",
+  "table-editor-obsidian",
+  "obsidian-table-generator",
+  "obsidian-plugin-toc"
 ]

@@ -1,16 +1,14 @@
 # Parts of OS
-![[Drawing 2023-03-23 00.23.49.excalidraw]]  .
+![[Drawing 2023-03-23 00.23.49.excalidraw]]  
 ## Kernel 
-
-^1b654e
 
 This is the core of OS
 It provides interface to the hardware and software
 	The drivers are in the kernel
 	Application -> Kernel -> Driver -> Hardware
 
-It special, it has the highest **previlege** in the sytem
-Previlege -> Authority it has
+It special, it has the highest **privilege** in the system
+Privilege -> Authority it has
 
 It handles memory directly
 
@@ -28,7 +26,10 @@ UserMode | Kernel Mode
 ModeBit = 1 | ModeBit = 0
 We can remember this by Modebit tells us if we are in UserMode
 The switch between the modebit happens automatically 
-![[Drawing 2023-03-23 01.07.12.excalidraw]] .
+
+![[Drawing 2023-03-26 20.03.02.excalidraw]]
+![[Drawing 2023-03-23 01.07.12.excalidraw]]
+
 # Types of Operating System
 1. Uni-Programming OS
 2. Multi-Programming OS
@@ -42,7 +43,7 @@ The switch between the modebit happens automatically
 ## Uni-Programming OS
 - OS allows only 1 process (except OS) to be in memory
 - Single process can't keep CPU alive and do I/O simultaneously 
--  Degree of Multi Programming  = 1 
+-  *Degree of Multi Programming  = 1* 
 
 ## Multi Programming OS
 - Os allows more than 1 process to be in memory 
@@ -52,11 +53,11 @@ The switch between the modebit happens automatically
 Types :
 1. Preemptive
 	- The OS can forcefully without the will of the process remove it from the CPU
-2. Non- Preemptive
-	- The process leaves when it wishes
+2. Non- Preemptive / *Co-operative* 
+	- The process leaves when it wishes[]()
 
 ### Degree of Multi-programming
-- It is the number of processes that exist in MAIN MEMORY
+- It is the number of processes that exist in **MAIN MEMORY**
 - Degree of multi programming $\alpha$ CPU utilization
 
 
