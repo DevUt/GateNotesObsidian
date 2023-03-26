@@ -4,5 +4,6 @@
   "obsidian-tikzjax",
   "table-editor-obsidian",
   "obsidian-table-generator",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "terminal"
 ]

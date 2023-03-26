@@ -53,7 +53,7 @@ The switch between the modebit happens automatically
 Types :
 1. Preemptive
 	- The OS can forcefully without the will of the process remove it from the CPU
-2. Non- Preemptive / *Co-operative* 
+2. Non- Preemptive / *Co-operative*  ^366a2a
 	- The process leaves when it wishes[]()
 
 ### Degree of Multi-programming
