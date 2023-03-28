@@ -12,8 +12,9 @@ Privilege -> Authority it has
 
 It handles memory directly
 
+
 ## Shell 
-It allows us to directly interact with [[Kernel]]
+It allows us to directly interact with [[#Kernel]]
 
 # Dual Mode
 Any application runs in two modes
@@ -51,9 +52,11 @@ The switch between the modebit happens automatically
 
 ### Types of Multi-programming OS
 Types :
-1. Preemptive
+1. Preemptive ^3ead25
 	- The OS can forcefully without the will of the process remove it from the CPU
-2. Non- Preemptive / *Co-operative*  ^366a2a
+	- [This requires Hardware support](https://cs.stackexchange.com/questions/135990/os-why-is-it-necessary-to-have-hardware-support-for-implementing-preemptive-sch)
+
+1. Non- Preemptive / *Co-operative*  ^366a2a
 	- The process leaves when it wishes[]()
 
 ### Degree of Multi-programming
