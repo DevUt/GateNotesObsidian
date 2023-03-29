@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a400a75c37a654c5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-03-29 22.45.26.excalidraw.md"
+              }
+            }
           }
         ]
       }
@@ -143,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,9 +170,10 @@
   },
   "active": "16da415eeaff5a67",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-03-29 22.45.26.excalidraw.md",
+    "Operating System/Scheduling Algorithms.md",
     "Operating System/Process Scheduling.md",
     "Operating System/Introduction to Os.md",
-    "Operating System/Scheduling Algorithms.md",
     "Excalidraw/Drawing 2023-03-29 01.21.14.excalidraw.md",
     "Excalidraw/Scheduling Algorithms 2023-03-29 00.08.43.excalidraw.md",
     "Excalidraw/Scheduling Algorithms 2023-03-29 00.25.27.excalidraw.md",
