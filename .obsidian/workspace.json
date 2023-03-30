@@ -4,29 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "632745689ecd8a99",
+        "id": "4735540b9977780a",
         "type": "tabs",
         "children": [
           {
-            "id": "16da415eeaff5a67",
+            "id": "787f80d8a1102753",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Scheduling Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a400a75c37a654c5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-03-29 22.45.26.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -79,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -96,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/Scheduling Algorithms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System/Scheduling Algorithms.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -135,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Operating System/Scheduling Algorithms.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +150,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "16da415eeaff5a67",
+  "active": "cdf0ff8a5f804be3",
   "lastOpenFiles": [
+    "images",
+    "Operating System/Process/Process Scheduling.md",
+    "Operating System/Todo.md",
+    "Operating System/Process",
+    "Operating System/Process/Scheduling Algorithms.md",
+    "Excalidraw/Pasted image 20230330165156.png",
+    "Excalidraw/Pasted image 20230330164654.png",
+    "Galvin.md",
     "Excalidraw/Drawing 2023-03-29 22.45.26.excalidraw.md",
-    "Operating System/Scheduling Algorithms.md",
-    "Operating System/Process Scheduling.md",
     "Operating System/Introduction to Os.md",
     "Excalidraw/Drawing 2023-03-29 01.21.14.excalidraw.md",
     "Excalidraw/Scheduling Algorithms 2023-03-29 00.08.43.excalidraw.md",
@@ -180,8 +168,7 @@
     "Excalidraw/Scheduling Algorithms 2023-03-29 00.48.25.excalidraw.md",
     "Excalidraw/Drawing 2023-03-22 00.25.34.excalidraw.svg",
     "Discrete Mathematics/Logic/Logical Connectives.md",
-    "Untitled.md",
-    "Operating System/Process.md",
+    "Operating System/Process/Process.md",
     "Kernel.md",
     "Discrete Mathematics/Logic/Introduction.md",
     "Operating System/Process Scheduling.tex",
@@ -204,12 +191,9 @@
     "Excalidraw/Drawing 2023-03-23 02.01.33.excalidraw.md",
     "Excalidraw/Drawing 2023-03-22 00.25.34.excalidraw.md",
     "Excalidraw/Drawing 2023-03-23 01.47.28.excalidraw.md",
-    "Excalidraw/Process 2023-03-23 01.40.24.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-23 01.07.12.excalidraw.md",
     "Operating System",
     "Fundamental Mathematics",
     "Excalidraw",
-    "Theory of Computation",
-    "CompilerDesign"
+    "Theory of Computation"
   ]
 }

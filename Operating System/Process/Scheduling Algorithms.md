@@ -183,23 +183,84 @@ Solution to Starvation: #Aging
 - After a predetermined time period -> Increase priority of the waiting process
 - Only Dynamic supports aging.
 
-## Round - Robin / TimeSharing
+## Round - Robin / Time Sharing
 Criteria : AT + Q (Time Quantum)
 Type : Preemptive
 
 Objective : Provides Inter-activeness, Fairness
+Starvation : Nope
+
+**Time quantum is NEVER infinite**
 
 | PID   | AT  | BT  | CT  | TAT | WT  | RT  |
 |:----- |:--- |:--- |:--- |:--- |:--- |:--- |
-| $P_1$ | 0   | 4   |     |     |     |     |
-| $P_2$ | 1   | 5   |     |     |     |     |
-| $P_3$ | 2   | 6   |     |     |     |     |
-| $P_4$ | 3   | 3   |     |     |     |     |
-| $P_5$ | 4   | 2   |     |     |     |     |
-| $P_6$ | 5    | 4    |     |     |     |     |
+| $P_1$ | 0   | 4   | 8   |     |     |     |
+| $P_2$ | 1   | 5   | 20  |     |     |     |
+| $P_3$ | 2   | 6   | 24  |     |     |     |
+| $P_4$ | 3   | 3   | 19  |     |     |     |
+| $P_5$ | 4   | 2   | 12  |     |     |     |
+| $P_6$ | 5   | 4   | 22  |     |     |     |
 $Q = 2$
+
+$\text{No. Of Context Switch} = 12$
 
 Ready Queue
 $$\displaylines{\begin{aligned} 0 &: P_1 \\ 1 &: P_2 \\ 2 &: P_2, P_3, P_1 \\ 3 &: P_3, P_1, P_4, \\ 4 &: P_3,P_1, P_4, P_5, P_2 \\ 6 &: \cdots \end{aligned}}$$
 
-Note: Tricky case at 2nd we see that $P_1$ finished the job and  $P_3$ also arrives, we have to place $P_3$ before $P_1$ in ready queue. 
+Note: Tricky case at 2nd we see that $P_1$ finished the job and  $P_3$ also arrives, we have to place $P_3$ before $P_1$ in ready queue.  
+
+Q 
+| PID   | AT  | BT  | CT  | TAT | WT  | RT  |
+|:----- |:--- |:--- |:--- |:--- |:--- |:--- |
+| $P_1$ | 0   | 8   |    |     |     |     |
+ Time Quantum(Q) =  2   ^e24540
+
+> In some question the number of Context switches for this 3
+> [Galvin Reference](https://gateoverflow.in/147415/os-round-robin-scheduling?show=343480#a343480)
+
+$\text{No of context switch} = (\Sigma \lceil \dfrac{m}{q} \rceil) - 1$
+
+If there are $n$ processes in ready queue and the time quantum is $q$, then each of the  process gets $\frac{1}{n}$ of CPU time in chunks of at most $q$ time unit. Each process may wait no longer than $(n-1)q$ time units until its next time quantum.
+
+
+#### Values of time quantum
+
+##### Very Small : 
+**This is also known as #processor-sharing (in theory)**
+CPU spends more time in context switching than in execution. 
+
+This creates an appearance that each of n process has its own processor that is running at $\frac{1}{n}$ speed of the real processor. 
+
+This was used in CDC Control Data Corporation 
+
+##### Small
+Less Interactive
+
+##### Very Large
+
+Degrades to [[Scheduling Algorithms#First Come First Serve (FCFS)|FCFS]]. 
+This degradation means that the all processes have completed their execution before the time quantum expires.
+
+> Riddhi Gate 2023 Case Study
+> 
+> Q. If time quantum is very large round robin degrades to FCFS then can we say round robin has starvation?
+> 
+> No we cannot because time quantum is never infinite therefore we can say the process with infinite burst HAS to be preempted at some point causing a context switch and chance to other processes. This prevents starvation as the waiting time is not indefinite. 
+
+## MultiLevel Queue Scheduling
+
+![[Pasted image 20230330164654.png]]
+
+## MultiLevel Feedback Queue Scheduling
+![[Pasted image 20230330165156.png]]
+
+In general, a multilevel feedback queue scheduler is defined by the  
+following parameters:  
+- The number of queues  
+- The scheduling algorithm for each queue  
+- The method used to determine when to upgrade a process to a higher priority queue  
+The method used to determine when to demote a process to a lower priority queue  
+The method used to determine which queue a process will enter when that process needs service
+
+----
+
