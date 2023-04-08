@@ -143,6 +143,10 @@ Q1.
 - Practical implementation not possible (Burst time?)
 - No fairness
 
+##### Questions
+[GATE 2003](https://gateoverflow.in/963)
+[GATE 2015](https://gateoverflow.in/8492)
+
 ## Highest Response Ratio Next (HRRN)
 - So we saw that starvation was an issue in SRTF because it only considered burst times
 - We may consider waiting times to address starvation
@@ -189,6 +193,9 @@ Type : Preemptive
 
 Objective : Provides Inter-activeness, Fairness
 Starvation : Nope
+
+Questions:
+[Gate 2013](https://gateoverflow.in/1419)
 
 **Time quantum is NEVER infinite**
 

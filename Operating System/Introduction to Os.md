@@ -63,6 +63,11 @@ Types :
 - It is the number of processes that exist in **MAIN MEMORY**
 - Degree of multi programming $\alpha$ CPU utilization
 
+Qustions:
+[Gate 2001](https://gateoverflow.in/738)
+
+
+
 
 ## Multi Tasking OS / Time Sharing
 

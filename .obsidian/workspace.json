@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4735540b9977780a",
+        "id": "34d45d69093657ec",
         "type": "tabs",
         "children": [
           {
-            "id": "787f80d8a1102753",
+            "id": "04d8c1bd7d3b9f30",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CompilerDesign/Left recursion.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CompilerDesign/Left recursion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CompilerDesign/Left recursion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CompilerDesign/Left recursion.md"
+              }
             }
           },
           {
@@ -150,50 +159,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cdf0ff8a5f804be3",
+  "active": "04d8c1bd7d3b9f30",
   "lastOpenFiles": [
-    "images",
+    "Excalidraw/Left recursion 2023-04-09 00.25.42.excalidraw.md",
+    "CompilerDesign/Left recursion.md",
+    "Excalidraw/Left recursion 2023-04-09 00.21.42.excalidraw.md",
+    "Excalidraw/Left recursion 2023-04-09 00.08.57.excalidraw.md",
+    "Excalidraw/Left recursion 2023-04-09 00.05.42.excalidraw.md",
+    "Excalidraw/Left recursion 2023-04-09 00.03.10.excalidraw.md",
+    "Excalidraw/Left recursion 2023-04-08 23.52.02.excalidraw.md",
+    "Excalidraw/Left recursion 2023-04-08 23.45.12.excalidraw.md",
+    "Excalidraw/Left recursion 2023-04-08 23.36.30.excalidraw.md",
+    "CompilerDesign/Problems in Parsing.md",
+    "Excalidraw/Problems in Parsing 2023-04-08 23.12.09.excalidraw.md",
+    "Excalidraw/Problems in Parsing 2023-04-08 23.24.14.excalidraw.md",
+    "Excalidraw/Problems in Parsing 2023-04-08 23.21.29.excalidraw.md",
+    "Excalidraw/Problems in Parsing 2023-04-08 23.18.03.excalidraw.md",
+    "Excalidraw/Problems in Parsing 2023-04-08 23.14.53.excalidraw.md",
+    "CompilerDesign/Introduction.md",
+    "Operating System/Introduction to Os.md",
+    "Excalidraw/Introduction 2023-04-08 22.38.41.excalidraw.md",
+    "Excalidraw/Introduction 2023-04-08 22.14.12.excalidraw.md",
+    "Untitled",
+    "Operating System/Process/Scheduling Algorithms.md",
     "Operating System/Process/Process Scheduling.md",
+    "Operating System/Process/Process.md",
+    "images",
     "Operating System/Todo.md",
     "Operating System/Process",
-    "Operating System/Process/Scheduling Algorithms.md",
     "Excalidraw/Pasted image 20230330165156.png",
     "Excalidraw/Pasted image 20230330164654.png",
     "Galvin.md",
     "Excalidraw/Drawing 2023-03-29 22.45.26.excalidraw.md",
-    "Operating System/Introduction to Os.md",
     "Excalidraw/Drawing 2023-03-29 01.21.14.excalidraw.md",
-    "Excalidraw/Scheduling Algorithms 2023-03-29 00.08.43.excalidraw.md",
-    "Excalidraw/Scheduling Algorithms 2023-03-29 00.25.27.excalidraw.md",
-    "Excalidraw/Scheduling Algorithms 2023-03-29 00.48.25.excalidraw.md",
     "Excalidraw/Drawing 2023-03-22 00.25.34.excalidraw.svg",
-    "Discrete Mathematics/Logic/Logical Connectives.md",
-    "Operating System/Process/Process.md",
-    "Kernel.md",
-    "Discrete Mathematics/Logic/Introduction.md",
     "Operating System/Process Scheduling.tex",
-    "Excalidraw/Process Scheduling 2023-03-27 01.51.00.excalidraw.md",
-    "Excalidraw/Process 2023-03-23 02.07.45.excalidraw.md",
-    "Theory of Computation/Introduction.md",
-    "Theory of Computation/Regular Languages.md",
-    "Excalidraw/Drawing 2023-03-26 20.03.02.excalidraw.md",
     "Introduction.pdf",
-    "Fundamental Mathematics/Modular Arithmetic.md",
     "Discrete Mathematics/Logic",
     "Discrete Mathematics",
     "Operating System/Process.html",
     "Untitled.canvas",
-    "$.md",
-    "Excalidraw/Drawing 2023-03-23 02.30.48.excalidraw.md",
     "Excalidraw/Drawing 2023-03-23 02.30.48.excalidraw.png",
     "Excalidraw/Drawing 2023-03-23 02.30.48.excalidraw.svg",
     "Excalidraw/Drawing 2023-03-23 00.23.49.excalidraw.png",
-    "Excalidraw/Drawing 2023-03-23 02.01.33.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-22 00.25.34.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-23 01.47.28.excalidraw.md",
     "Operating System",
-    "Fundamental Mathematics",
-    "Excalidraw",
-    "Theory of Computation"
+    "Fundamental Mathematics"
   ]
 }
