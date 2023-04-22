@@ -18,4 +18,33 @@ P.S $C$ is #DCFL.
 ----- 
 
 # Regular Expressions
-Let $A,B$ be 
+
+
+1. $\phi,\,\Sigma$ are primitive regular expression
+
+$R  = a$
+![[Regular Languages 2023-04-23 00.45.02.excalidraw]]
+
+$R = \epsilon$
+![[Regular Languages 2023-04-23 00.46.10.excalidraw]]
+
+$R = \phi$
+
+![[Regular Languages 2023-04-23 00.47.26.excalidraw]]
+
+If $R$ is composite
+
+$$
+	\text{Use Closure properties}\left\{
+    \begin{array}{ll}
+        R_1 \cup R_2 \\
+        R_1 \cdot R_2 \\
+        R_1^{*}
+    \end{array}
+\right.$$
+
+$(a \cup a \cdot b)^*$
+
+Closure properties
+
+![[Regular Languages 2023-04-23 00.53.15.excalidraw]]

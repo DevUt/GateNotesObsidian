@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ff183e18f654932b",
+        "id": "719a42931411af7c",
         "type": "split",
         "children": [
           {
@@ -15,18 +15,34 @@
                 "id": "059ccf59c5a78b0a",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Theory of Computation/Regular Languages.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c9d8688cc81af57f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Theory of Computation/Operations.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
           },
           {
-            "id": "aadc5dd5d2b564e0",
+            "id": "06cb2a0d1fbba588",
             "type": "tabs",
             "children": [
               {
-                "id": "6a77a1a63bdc74a0",
+                "id": "6a8a96d9097c6a4b",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -46,8 +62,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 142,
-                        "data": "$ ls   \r\n CompilerDesign\u001b[9C Excalidraw\u001b[13C   'Mobile Computing'  'Theory of Computation'\r\n'Discrete Mathematics'\u001b[2C'Fundamental Mathematics'  'Operating System'\r\n$ git add .\r\ngit c",
+                        "columns": 113,
+                        "data": "$ git add ..\r\nfatal: ..: '..' is outside repository at '/home/devut/Projects/GATE'\r\n$ git add ",
                         "rows": 15
                       }
                     }
@@ -108,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -194,12 +209,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a77a1a63bdc74a0",
+  "active": "6a8a96d9097c6a4b",
   "lastOpenFiles": [
+    "Theory of Computation/Regular Languages.md",
     "Theory of Computation/Operations.md",
+    "Excalidraw/Regular Languages 2023-04-23 00.53.15.excalidraw.md",
+    "Excalidraw/Regular Languages 2023-04-23 00.47.26.excalidraw.md",
+    "Excalidraw/Regular Languages 2023-04-23 00.46.10.excalidraw.md",
+    "Excalidraw/Regular Languages 2023-04-23 00.45.02.excalidraw.md",
+    "Theory of Computation/Regular Expressions.md",
+    "Excalidraw/Operations 2023-04-22 17.36.38.excalidraw.md",
     "Excalidraw/Operations 2023-04-22 18.09.41.excalidraw.md",
     "Excalidraw/Operations 2023-04-22 17.43.55.excalidraw.md",
-    "Excalidraw/Operations 2023-04-22 17.36.38.excalidraw.md",
     "Excalidraw/Regular Operations 2023-04-22 17.01.37.excalidraw.md",
     "CompilerDesign/Predictive Parsing.md",
     "CompilerDesign/Parsing.md",
@@ -223,13 +244,7 @@
     "Excalidraw/Bottm Up Parsing 2023-04-14 01.24.46.excalidraw.md",
     "Excalidraw/Bottm Up Parsing 2023-04-14 01.01.03.excalidraw.md",
     "Excalidraw/Drawing 2023-04-14 00.47.53.excalidraw.md",
-    "Cryptography/Network Security and Applications.md",
     "Cryptography",
-    "Excalidraw/Predictive Parsing 2023-04-12 01.28.15.excalidraw.md",
-    "Excalidraw/Predictive Parsing 2023-04-12 00.04.22.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-11 23.28.11.excalidraw.md",
-    "Excalidraw/First and Follow 2023-04-11 23.21.49.excalidraw.md",
-    "Excalidraw/First and Follow 2023-04-11 00.51.41.excalidraw.md",
     "images",
     "Operating System/Process",
     "Excalidraw/Pasted image 20230330165156.png",
