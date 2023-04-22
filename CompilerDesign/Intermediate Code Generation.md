@@ -1,5 +1,6 @@
 - Intermediate code is the interface between the front end and the back end
 Case Study 
+
 [GCC](https://tldp.org/HOWTO/GCC-Frontend-HOWTO-4.html)
 ![[Pasted image 20230415230517.png]]
 
@@ -87,6 +88,32 @@ Mam solution:
 (7)
 ```
 
+```c
+while (A < C and B > D) do
+	if A = 1 then C = C + 1
+	else
+		while A <= D
+			do A = A + B
+```
+
+```c
+if (A < C) goto (3)
+goto (15)
+if (B > D) goto (5)
+goto (15)
+if (A = 1) goto (7)
+goto (10)
+T1 = c + 1
+c = T1
+goto (1)
+if (A <= D) goto (12)
+goto (1)
+T2 = A + B
+A = T2
+goto (10)
+
+```
+
 
 ## Implementation of Three Address code
 1. Quadruple
@@ -110,6 +137,7 @@ a = t5
 ```
 
 Quadruple
+
 | Location | Op             | Arg1 | Arg2 | Result |
 |:-------- |:-------------- |:---- |:---- |:------ |
 | (1)      | uminus         | c    |      | t1     |

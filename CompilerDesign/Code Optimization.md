@@ -103,7 +103,7 @@ if (x > 0 && x + 1 > 10) {
 #### Loop invariant code motion
 - It specifies on a condition if we perform some operations to be carried out
 and then compare for a condition.
-- Instead of that perform the calculation outside the loop and assign a value in
+- Instead of that , perform the calculation outside the loop and assign a value in
 the calculation.
 - Known as *hoisting* or *scalar* promotion
 ```c
@@ -125,7 +125,7 @@ while(i <= t1){
 - The code that do not affect the program are eliminated
 
 #### Strength Reduction
-- Strength reduction is a compiler optimization technique that replaces expensive operations with cheaper ones that produce the same result 
+- Strength reduction is a compiler optimization technique that replaces expensive operations with cheaper ones that produce the same result
 - Multiplication by 2 powers
 ```c
 int x = y * 8;
@@ -207,6 +207,7 @@ I5
 - Peephole optimization is a local optimization technique that examines a small window of instructions in the compiled code and makes changes to improve performance. 
 - This technique is called "peephole" because it looks through a small window of instructions, similar to looking through a peephole in a door.
 
+
 ## Machine Independent Optimizations
 ### Types 
 
@@ -225,7 +226,7 @@ I5
 
 ![[#Strength Reduction|Strength Reduction]]
 
-#### Frequency reduction
+##### Frequency reduction
 - Move code out of loop optimization
 
 ```c
@@ -235,7 +236,7 @@ while(true){
 }
 ```
 
-#### Loop distribution
+#####  Loop distribution
 - Loop distribution is an optimization technique that splits a loop into multiple loops in order to improve performance. 
 - The idea behind loop distribution is to break up a loop into smaller pieces that can be executed more efficiently.
 ```c

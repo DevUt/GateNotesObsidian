@@ -1,9 +1,18 @@
+
+![[Pasted image 20230417002335.png]]
+
 # Issues of Code Generation
+
+- [[#Input to Code Generator|Input to Code Generator]]
+- [[#Target Program|Target Program]]
+- [[#Memory management|Memory management]]
+- [[#Instruction Selection|Instruction Selection]]
+- [[#Register Allocation|Register Allocation]]
+- [[#Evaluation Order|Evaluation Order]]
 
 ## Input to Code Generator
 - Input to Code Generator is the intermediate representation of the source program by the front end.
 - It also contains the symbol table to determine the  addresses of the data object.
-
 - Prior to code generation the parser has already done input sanitization 
 
 ## Target Program
