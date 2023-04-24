@@ -4,32 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "719a42931411af7c",
+        "id": "70b069074c3eac2a",
         "type": "split",
         "children": [
           {
-            "id": "ccd401a03c42dcd9",
+            "id": "8a4ac347564f86b6",
             "type": "tabs",
             "children": [
               {
-                "id": "059ccf59c5a78b0a",
+                "id": "f6018a00e069355e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Theory of Computation/Regular Languages.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c9d8688cc81af57f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Theory of Computation/Operations.md",
+                    "file": "Operating System/Process/Process.md",
                     "mode": "source",
                     "source": false
                   }
@@ -38,18 +26,18 @@
             ]
           },
           {
-            "id": "06cb2a0d1fbba588",
+            "id": "8cc625bbc89493ee",
             "type": "tabs",
             "children": [
               {
-                "id": "6a8a96d9097c6a4b",
+                "id": "70d6c80c4d2b9d60",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/home/devut/Projects/GATE",
+                      "cwd": "/home/devut/Projects/GATE/Operating System/Process",
                       "profile": {
                         "args": [],
                         "executable": "/bin/sh",
@@ -63,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 113,
-                        "data": "$ git add ..\r\nfatal: ..: '..' is outside repository at '/home/devut/Projects/GATE'\r\n$ git add ",
+                        "data": "$ git add .\r\n$ git commit -m \"Update\"\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../../Theory of Computation/Regular Languages.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../../Excalidraw/Introduction 2023-04-24 23.56.33.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-04-25 00.00.46.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-04-25 00.15.31.excalidraw.md\r\n\u001b[8C../../Excalidraw/Pasted Image 20230425000050_791.png\r\n\u001b[8C../../Excalidraw/Pasted Image 20230425001533_289.png\r\n\u001b[8C../Process Synchronization/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add .\r\n$ git commit -m \"Update\"\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../../Theory of Computation/Regular Languages.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../../Excalidraw/Introduction 2023-04-24 23.56.33.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-04-25 00.00.46.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-04-25 00.15.31.excalidraw.md\r\n\u001b[8C../../Excalidraw/Pasted Image 20230425000050_791.png\r\n\u001b[8C../../Excalidraw/Pasted Image 20230425001533_289.png\r\n\u001b[8C../Process Synchronization/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git commit -a \"Update\"\r\nfatal: paths 'Update ...' with -a does not make sense\r\n$ git commit -a -m \"Update\"\r\ng[main 11dca73] Update\r\n 2 files changed, 42 insertions(+), 34 deletions(-)\r\n$git status\r\nOn branch main\r\nYour branch is ahead of 'origin/main' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../../Excalidraw/Introduction 2023-04-24 23.56.33.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-04-25 00.00.46.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-04-25 00.15.31.excalidraw.md\r\n\u001b[8C../../Excalidraw/Pasted Image 20230425000050_791.png\r\n\u001b[8C../../Excalidraw/Pasted Image 20230425001533_289.png\r\n\u001b[8C../Process Synchronization/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -A\r\n$ git status\r\nOn branch main\r\nYour branch is ahead of 'origin/main' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   ../../.obsidian/workspace.json\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-04-24 23.56.33.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-04-25 00.00.46.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-04-25 00.15.31.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted Image 20230425000050_791.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted Image 20230425001533_289.png\r\n\u001b[8Cnew file:   ../Process Synchronization/Introduction.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/workspace.json\r\n\r\n\u001b[0m$ git add ",
                         "rows": 15
                       }
                     }
@@ -209,10 +197,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a8a96d9097c6a4b",
+  "active": "70d6c80c4d2b9d60",
   "lastOpenFiles": [
+    "Operating System/Process/Process.md",
+    "Operating System/Process/Process Scheduling.md",
+    "Operating System/Process/Scheduling Algorithms.md",
     "Theory of Computation/Regular Languages.md",
     "Theory of Computation/Operations.md",
+    "Operating System/Process Synchronization/Introduction.md",
+    "Excalidraw/Introduction 2023-04-25 00.15.31.excalidraw.md",
+    "Excalidraw/Pasted Image 20230425001533_289.png",
+    "Excalidraw/Introduction 2023-04-25 00.00.46.excalidraw.md",
+    "Excalidraw/Pasted Image 20230425000050_791.png",
+    "Excalidraw/Introduction 2023-04-24 23.56.33.excalidraw.md",
+    "Operating System/Untitled.md",
+    "Operating System/Process Synchronization",
     "Excalidraw/Regular Languages 2023-04-23 00.53.15.excalidraw.md",
     "Excalidraw/Regular Languages 2023-04-23 00.47.26.excalidraw.md",
     "Excalidraw/Regular Languages 2023-04-23 00.46.10.excalidraw.md",
@@ -229,34 +228,23 @@
     "CompilerDesign/Left recursion.md",
     "CompilerDesign/Intermediate Code Generation.md",
     "CompilerDesign/First and Follow.md",
-    "CompilerDesign/Code Generation.md",
     "Excalidraw/Pasted image 20230417002335.png",
     "Excalidraw/Pasted image 20230417002328.png",
-    "CompilerDesign/Code Optimization.md",
-    "CompilerDesign/Loaders.md",
     "Excalidraw/Pasted image 20230416132306.png",
     "Excalidraw/Pasted image 20230416131035.png",
-    "CompilerDesign/Problems in Parsing.md",
-    "Excalidraw/Code Generation 2023-04-16 01.02.10.excalidraw.md",
     "Excalidraw/Pasted image 20230415230517.png",
     "Excalidraw/Pasted image 20230415145814.png",
     "Mobile Computing",
-    "Excalidraw/Bottm Up Parsing 2023-04-14 01.24.46.excalidraw.md",
-    "Excalidraw/Bottm Up Parsing 2023-04-14 01.01.03.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-14 00.47.53.excalidraw.md",
     "Cryptography",
     "images",
     "Operating System/Process",
     "Excalidraw/Pasted image 20230330165156.png",
     "Excalidraw/Pasted image 20230330164654.png",
-    "Excalidraw/Drawing 2023-03-22 00.25.34.excalidraw.svg",
     "Operating System/Process Scheduling.tex",
     "Introduction.pdf",
     "Discrete Mathematics/Logic",
     "Discrete Mathematics",
     "Operating System/Process.html",
-    "Untitled.canvas",
-    "Excalidraw/Drawing 2023-03-23 02.30.48.excalidraw.png",
-    "Operating System"
+    "Untitled.canvas"
   ]
 }

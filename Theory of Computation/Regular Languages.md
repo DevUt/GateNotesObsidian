@@ -48,3 +48,23 @@ $(a \cup a \cdot b)^*$
 Closure properties
 
 ![[Regular Languages 2023-04-23 00.53.15.excalidraw]]
+
+Examples
+
+1) $0^*10^*$ Contains only single 1 and any number of 0
+2) $\Sigma^*1 \Sigma^*$  Contains at least single 1 and any other number of other alphabet
+3) $1^*(01^+)^*$ Any number of 1 followed by any number of (0 followed by atleast a single 1
+4) $(\Sigma\Sigma)^*$  Even length strings
+5) $(\Sigma\Sigma\Sigma)^*$  Multiple of three
+6) $A \cdot \emptyset = \emptyset$  
+$A \cdot B = \{ab, a \in A \text{ and } b \in B\}$ 
+
+7) $r = (a+b)^*(a+bb)$ $L(r) = \{a, bb, aa, ba, abb, bbb,\cdots\}$
+8) $L(r) = \{w \in \Sigma^* : \: w \: \text{has at least one pair of consecutive zeros} \}$ 
+8) $L(r) = \{w \in \Sigma^* : \: w \: \text{has no pair of consecutive zeros} \}$ 
+9) What does $(\emptyset ^ *)^*$ represent? > $\{\epsilon\}$
+10) what does $a\emptyset$ represent? $\emptyset$ 
+11) Regex for string with even number of $a's$ followed by odd number of $b's$ $(aa)^*b(bb)^*$ 
+$L(r) = \{a^{2n}b^{2m+1} \: : \: n \geq 0, m \geq 0\}$
+
+12) 
