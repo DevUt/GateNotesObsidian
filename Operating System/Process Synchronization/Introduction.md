@@ -14,6 +14,7 @@ counter = register; // Store the result back
 Lets say we perform `counter--;` and `counter++;` simultaneously. 
 
 ![[Introduction 2023-04-25 00.00.46.excalidraw]]
+![[Drawing 2023-04-26 15.45.10.excalidraw]]
 
 This phenomenon is known as #race-condition
 
@@ -55,14 +56,21 @@ Remaining Code.
 
 # Requirements To Solution
 
+## Mutual Exclusion
+If a process is in its critical section, then no other process can be executing in their critical section.
 
+## Progress 
+If no process is executing in its critical section and some processes wish to enter their critical sections, then only those processes that are not executing in their remainder sections can participate in deciding which will enter its critical section next, and this selection cannot be postponed indefinitely
+
+## Bounded Waiting
+There exists a bound, or limit, on the number of times that other processes are allowed to enter their critical sections after a process has made a request to enter its critical section and before that request is granted
 
 # Locks
 
-## Using an naive Lock
+## Using an Naive Lock
 
 ```c
-bool lock;
+bool lock; // This is shared
 while(true){
 	while(lock)
 		;
@@ -72,3 +80,82 @@ while(true){
 	// RS
 }
 ```
+
+```c
+register = lock;
+register = true;
+lock = register;
+```
+
+What  happens when `lock` becomes false  and we preempt just before  line 5?
+![[Introduction 2023-04-26 16.09.09.excalidraw]]
+*Mutual Exclusion* is violated. Because `lock` variable itself was shared and not protected. 
+
+## Using Turn Based
+
+First process
+```c
+int turn =0;
+
+while(true){
+	while(turn != 0)
+		;
+	// CS
+	turn = 1;
+	// RS
+}
+```
+
+Second process
+```c
+int turn =0;
+
+while(true){
+	while(turn != 1)
+		;
+	// CS
+	turn = 0;
+	// RS
+}
+```
+
+*Progress is violated*
+
+## Peterson's Solution
+
+Process 0
+```c
+bool flag[2]; // Denote wishes
+int turn; // Denote turns
+
+while(true){
+	flag[0] = true; // Mera icha hai
+	turn = 1; // But tu phele ja
+
+	while(flag[1] && turn == 1)
+		; // No Op
+	// CS
+	flag[0] = false;
+}
+```
+
+Process 1
+```c
+bool flag[2];
+int turn;
+
+while(true){
+	flag[1] = true;
+	turn = 0;
+
+	while(flag[0] && turn == 0)
+		;
+	// CS
+	flag[1] = false;
+}
+```
+
+[This solution doesn't work in modern CPU architectures due to the reordering of load and store instructions](https://stackoverflow.com/a/15676084/5019937). 
+
+### HW : Prove all the requirements satisfy for this solution.
+
