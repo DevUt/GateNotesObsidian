@@ -43,6 +43,30 @@ while(true){
 
 >This above solution is not free from Bounded waiting, why? and fix it.
 
+If I finish the remainder section, I can re-enter the critical section quickly without giving any other process any consideration. This violates the bounded waiting solution. 
+![[Synchoronization Solution 2023-04-30 12.32.03.excalidraw]]
+
+```c
+while(true){
+	waiting[i] = true;
+	while(waiting[i] && TestAndSet(&lock))
+		; // No OP
+	waiting[i] = false;
+	// CS
+
+	int j = (i+1)%n;
+	while((j!= i) && !waiting[j])
+		j = (j+1)%n;
+
+	if(j == i){
+		lock = false;
+	}else {
+		waiting[j] = false;
+	}
+}
+```
+
+
 ## Swap()
 
 ```c
@@ -65,7 +89,9 @@ while(true) {
 ```
 
 
-> Check if meets all the requirements.
+> [!question]
+> 
+>Check if meets all the requirements.
 
 # Semaphores
 
@@ -124,6 +150,9 @@ A process would continuously P() on the semaphore until it gets it. This wastes 
 
 And this is also called sometimes SPINLOCK because the process "spins" while waiting for the lock.
 
+
+Below are a solution to the busy waiting.
+
 ```c
 typedef struct {
     int value; // current value
@@ -149,4 +178,31 @@ V(Semaphore *S) {
         wakeup(P);
     }
 }
+```
+
+
+# Deadlock
+
+The implementation of a semaphore with a waiting queue may result in a situation where two or more processes are waiting indefinitely for a resource that they share.
+
+
+$P_0$
+```c
+P(S)
+P(Q)
+....
+
+V(S)
+V(Q)
+```
+
+
+$P_1$
+```c
+P(Q)
+P(S)
+....
+
+V(Q)
+V(S)
 ```

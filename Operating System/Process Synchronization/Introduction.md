@@ -62,8 +62,22 @@ If a process is in its critical section, then no other process can be executing 
 ## Progress 
 If no process is executing in its critical section and some processes wish to enter their critical sections, then only those processes that are not executing in their remainder sections can participate in deciding which will enter its critical section next, and this selection cannot be postponed indefinitely
 
+### How to check progress?
+
+Imagine $P_i$ wants to enter the critical section.
+
+Now there can be two cases
+1. $P_j$ doesn't exist
+2. $P_j$ is running in its remainder section.
+
+Is $P_i$ able to enter the critical section?
+
 ## Bounded Waiting
 There exists a bound, or limit, on the number of times that other processes are allowed to enter their critical sections after a process has made a request to enter its critical section and before that request is granted
+
+### How to check Bounded waiting?
+
+Mostly in bounded waiting cases we when the process ends it passes the lock to some other process. 
 
 # Locks
 
@@ -97,6 +111,7 @@ First process
 ```c
 int turn =0;
 
+-------
 while(true){
 	while(turn != 0)
 		;
@@ -110,6 +125,7 @@ Second process
 ```c
 int turn =0;
 
+------
 while(true){
 	while(turn != 1)
 		;
@@ -119,7 +135,9 @@ while(true){
 }
 ```
 
-*Progress is violated*
+*Progress is violated*.
+
+If the first process doesn't exist the second process will wait infinitely for the turn to be 1.
 
 ## Peterson's Solution
 
@@ -159,3 +177,12 @@ while(true){
 
 ### HW : Prove all the requirements satisfy for this solution.
 
+#### Mutual exclusion
+Mutual exclusion is guaranteed by the turn variable. It can only be 0 or a 1.
+
+#### Progress
+The turn variable is changed only in the entry section. 
+
+#### Bounded waiting
+
+Bounded waiting is satisfied because if the process wants to re-enter the critical section it gives up its turn and sets it for the different process.
