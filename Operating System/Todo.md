@@ -1,4 +1,5 @@
 - [ ] Priority Inversion
-- [ ] [[Scheduling Algorithms#^e24540|Check no. of context switch when bt > q]]
+- [x] [[Scheduling Algorithms#^e24540|Check no. of context switch when bt > q]]
 - [ ] Threading
 - [ ] Fork and exec system calls
+- [ ] [[Synchoronization Solution#Swap()|Check  requirements of swap]]

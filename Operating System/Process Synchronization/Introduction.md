@@ -13,7 +13,7 @@ counter = register; // Store the result back
 
 Lets say we perform `counter--;` and `counter++;` simultaneously. 
 
-![[Introduction 2023-04-25 00.00.46.excalidraw]]
+	![[Introduction 2023-04-25 00.00.46.excalidraw]]
 ![[Drawing 2023-04-26 15.45.10.excalidraw]]
 
 This phenomenon is known as #race-condition
@@ -175,6 +175,7 @@ while(true){
 
 [This solution doesn't work in modern CPU architectures due to the reordering of load and store instructions](https://stackoverflow.com/a/15676084/5019937). 
 
+*[Peterson solution for more than one process](https://cs.stackexchange.com/a/99032)*
 ### HW : Prove all the requirements satisfy for this solution.
 
 #### Mutual exclusion

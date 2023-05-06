@@ -206,3 +206,21 @@ P(S)
 V(Q)
 V(S)
 ```
+
+## Monitors
+
+What we do, we introduce OOP to semaphore.
+
+Just like semaphore, we introduce an abstraction over it, know as "condition".
+```c
+condition x,y;
+```
+
+The only operation permitted on a condition are wait and signal
+```c++
+x.wait();
+x.signal();
+```
+
+What if we execute `x.signal();` if we hadn't waited on it?
+In monitor, nothing would happen contrasting to semaphores where it affects its state.

@@ -32,6 +32,7 @@ The switch between the modebit happens automatically
 ![[Drawing 2023-03-23 01.07.12.excalidraw]]
 
 # Types of Operating System
+
 1. Uni-Programming OS
 2. Multi-Programming OS
 3. Multi- Tasking OS / Time Sharing OS

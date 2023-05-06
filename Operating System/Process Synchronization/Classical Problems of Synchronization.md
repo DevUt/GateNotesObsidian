@@ -149,4 +149,4 @@ P(mutex)
 V(mutex)
 ```
 
-3) One starts by picking the right other start from left. 
+3) One particular philosopher picks up the left fork before the right fork, and that all other philosophers pick up the right fork before the left fork 
