@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0f92aa7117dead83",
+        "id": "eb3c7a607d1060e1",
         "type": "split",
         "children": [
           {
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "9d13100213c4cb72",
+            "id": "4f28925b6ec38892",
             "type": "tabs",
             "children": [
               {
-                "id": "7a2c3220d02c91d6",
+                "id": "c5dc418afb7a5aa9",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -51,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 142,
-                        "data": "$ git add -",
+                        "data": "$ git add -A\u001b[1B\u001b[12D",
                         "rows": 15
                       }
                     }
@@ -206,9 +206,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7a2c3220d02c91d6",
+  "active": "c5dc418afb7a5aa9",
   "lastOpenFiles": [
     "Operating System/Memory Management/Paging.md",
+    "Excalidraw/Paging 2023-05-08 02.13.03.excalidraw.md",
+    "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
+    "Excalidraw/Paging 2023-05-08 01.34.11.excalidraw.md",
     "Excalidraw/Pasted image 20230507183236.png",
     "Excalidraw/Pasted image 20230507181928.png",
     "Excalidraw/Pasted image 20230507181710.png",
@@ -236,8 +239,6 @@
     "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Excalidraw/Introduction 2023-05-06 14.22.11.excalidraw.md",
     "Excalidraw/Introduction 2023-05-06 13.50.33.excalidraw.md",
-    "Excalidraw/Introduction 2023-05-06 13.32.10.excalidraw.md",
-    "Excalidraw/Introduction 2023-05-06 13.21.22.excalidraw.md",
     "Operating System/Memory Management",
     "Excalidraw/Pasted image 20230506023515.png",
     "Excalidraw/Pasted image 20230506021301.png",

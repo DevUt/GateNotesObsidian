@@ -186,3 +186,53 @@ Valid invalid bit.
 
 ![[Pasted image 20230507183236.png]]
 
+---
+# Multilevel Paging 
+
+Lets say 
+Page size = 4kb
+Page table entry is of 4B
+Logical address space =  4GB
+
+>[!question]
+>How many entries are there in the page table?
+>>[!answer]-
+>>$2^{20}$
+
+Lets say there is a process which is of 40Kb, how many pages would it actually use?
+-> 10 pages
+
+Now, the page table still contains $2^{20}$ entries and only 10 of them are valid.
+
+![[Paging 2023-05-08 01.34.11.excalidraw]]
+
+>[!Question]
+>What is the size of the page table?
+>>[!answer]-
+>>$2^{20} \times 2^{2} = 2^{22}$ 4MB  
+
+So we can see that for a 40Kb process we would require a 4MB of page table!!.
+
+>[!note]
+>A single level page table is also known as a flat table.
+
+![[Paging 2023-05-08 01.39.03.excalidraw]]
+
+![[Paging 2023-05-08 02.13.03.excalidraw]]
+
+## Why Multi Level paging
+
+### We may not find contiguous space to store the page table in main memory
+
+If we don't have 4GB contiguous space, then we can't store the page table. To store it in non-contiguous way we need hierarchical paging.
+
+### We have seen most pages are empty
+Why store the corresponding entries to the pages when they are empty?
+
+
+## Another example
+
+Page size = 8 bytes
+Logical address space = 1024 bytes
+
+We need to map the logical address of 800 to physical address.
