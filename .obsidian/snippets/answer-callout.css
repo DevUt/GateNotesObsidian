@@ -1,0 +1,4 @@
+.callout[data-callout="answer"] {
+    --callout-color: 16, 232, 70;
+    --callout-icon: lucide-check-check;
+}

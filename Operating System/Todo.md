@@ -3,3 +3,4 @@
 - [ ] Threading
 - [ ] Fork and exec system calls
 - [ ] [[Synchoronization Solution#Swap()|Check  requirements of swap]]
+- [ ] Swapping

@@ -4,46 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "8eb12d9ce33b96eb",
+        "id": "8c7bd5863581ba4a",
         "type": "split",
         "children": [
           {
-            "id": "e8efcb5ab14e38ea",
+            "id": "86958502ab1be730",
             "type": "tabs",
             "children": [
               {
-                "id": "09d086145d509546",
+                "id": "5f8f8e1f7da6a6e5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Operating System/Process Synchronization/Synchoronization Solution.md",
+                    "file": "Operating System/Memory Management/Paging.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "0af21f9fa6955b29",
+                "id": "3441fb0b2e4d9b92",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "excalidraw",
                   "state": {
-                    "file": "Operating System/Memory Management/Introduction.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "Excalidraw/Paging 2023-05-07 03.02.36.excalidraw.md"
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
-            "id": "d419f69176785853",
+            "id": "ab2ff776011bd799",
             "type": "tabs",
             "children": [
               {
-                "id": "f9d95a64767b3e0e",
+                "id": "d89158b51d8789f3",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -63,8 +60,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 142,
-                        "data": "$ git add .\r\n            \r\n\r\n$ $ $  \r\n$ git commit -m \"Update\"\r\n[main 21ba71f] Update\r\n 1 file changed, 142 insertions(+)\r\n create mode 100644 Operating System/Memory Management/Introduction.md\r\n$ git push\r\nEnumerating objects: 7, done.\r\nCounting objects: 100% (7/7), done.\r\nDelta compression using up to 8 threads\r\nCompressing objects: 100% (4/4), done.\r\nWriting objects: 100% (5/5), 3.29 KiB | 1.10 MiB/s, done.\r\nTotal 5 (delta 2), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (2/2), completed with 2 local objects.\r\nTo github.com:DevUt/GateNotesObsidian.git\r\n   e289e9b..21ba71f  main -> main\r\n$ git show\r\n\u001b[33mcommit 21ba71f6aeb501a2d56aea221d9a041686410d04 (\u001b[36;1mHEAD -> \u001b[32mmain\u001b[33;22m, \u001b[31;1morigin/main\u001b[33;22m)\r\n\u001b[0mAuthor: Utkarsh Tiwari <utkarsh02t@gmail.com>\r\nDate:   Sat May 6 15:20:26 2023 +0530\r\n\r\n    Update\r\n\r\n\u001b[1mdiff --git a/Operating System/Memory Management/Introduction.md b/Operating System/Memory Management/Introduction.md\r\nnew file mode 100644\r\nindex 0000000..59b241b\r\n--- /dev/null\r\n+++ b/Operating System/Memory Management/Introduction.md\u001b[0m        \r\n\u001b[36m@@ -0,0 +1,142 @@\r\n\u001b[32m+How do we load data?\r\n+\r\n\u001b[0m$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/data.json\r\n\u001b[8Cmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/main.js\r\n\u001b[8Cmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json\r\n\u001b[8Cmodified:   ../../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../Introduction to Os.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Classical Problems of Synchronization.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Deadlock.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Introduction.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Synchoronization Solution.md\r\n\u001b[8Cmodified:   ../Todo.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../../Engineering Mathematics/\r\n\u001b[8C../../Excalidraw/Classical Problems of Synchronization 2023-04-30 12.48.33.excalidraw.md\r\n\u001b[8C../../Excalidraw/Classical Problems of Synchronization 2023-05-01 13.11.15.excalidraw.md\r\n\u001b[8C../../Excalidraw/Deadlock 2023-05-01 16.02.29.excalidraw.md\r\n\u001b[8C../../Excalidraw/Deadlock 2023-05-06 01.28.01.excalidraw.md\r\n\u001b[8C../../Excalidraw/Drawing 2023-04-26 15.45.10.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-04-26 16.09.09.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 12.56.08.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 13.01.44.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 13.14.12.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 13.21.22.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 13.32.10.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 13.36.16.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 13.50.33.excalidraw.md\r\n\u001b[8C../../Excalidraw/Introduction 2023-05-06 14.22.11.excalidraw.md\r\n\u001b[8C../../Excalidraw/Pasted Image 20230426160911_954.png\r\n\u001b[8C../../Excalidraw/Pasted image 20230501160813.png\r\n\u001b[8C../../Excalidraw/Pasted image 20230502164447.png\r\n\u001b[8C../../Excalidraw/Pasted image 20230506015526.png\r\n\u001b[8C../../Excalidraw/Pasted image 20230506020307.png\r\n\u001b[8C../../Excalidraw/Pasted image 20230506021301.png\r\n\u001b[8C../../Excalidraw/Pasted image 20230506023515.png\r\n\u001b[8C../../Excalidraw/Synchoronization Solution 2023-04-26 17.21.58.excalidraw.md\r\n\u001b[8C../../Excalidraw/Synchoronization Solution 2023-04-30 12.32.03.excalidraw.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -A\r\nwarning: CRLF will be replaced by LF in .obsidian/plugins/obsidian-excalidraw-plugin/manifest.json.\r\nThe file will have its original line endings in your working directory\r\n$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/data.json\r\n\u001b[8Cmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/main.js\r\n\u001b[8Cmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json\r\n\u001b[8Cmodified:   ../../.obsidian/workspace.json\r\n\u001b[8Cnew file:   ../../Engineering Mathematics/Linear Algebra/Introduction.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Classical Problems of Synchronization 2023-04-30 12.48.33.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Classical Problems of Synchronization 2023-05-01 13.11.15.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Deadlock 2023-05-01 16.02.29.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Deadlock 2023-05-06 01.28.01.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Drawing 2023-04-26 15.45.10.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-04-26 16.09.09.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 12.56.08.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.01.44.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.14.12.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.21.22.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.32.10.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.36.16.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.50.33.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 14.22.11.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted Image 20230426160911_954.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230501160813.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230502164447.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506015526.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506020307.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506021301.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506023515.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Synchoronization Solution 2023-04-26 17.21.58.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Synchoronization Solution 2023-04-30 12.32.03.excalidraw.md\r\n\u001b[8Cmodified:   ../Introduction to Os.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Classical Problems of Synchronization.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Deadlock.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Introduction.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Synchoronization Solution.md\r\n\u001b[8Cmodified:   ../Todo.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/workspace.json\r\n\r\n\u001b[0m$ git add -A\r\n$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/data.json\r\n\u001b[8Cmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/main.js\r\n\u001b[8Cmodified:   ../../.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json\r\n\u001b[8Cmodified:   ../../.obsidian/workspace.json\r\n\u001b[8Cnew file:   ../../Engineering Mathematics/Linear Algebra/Introduction.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Classical Problems of Synchronization 2023-04-30 12.48.33.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Classical Problems of Synchronization 2023-05-01 13.11.15.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Deadlock 2023-05-01 16.02.29.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Deadlock 2023-05-06 01.28.01.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Drawing 2023-04-26 15.45.10.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-04-26 16.09.09.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 12.56.08.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.01.44.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.14.12.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.21.22.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.32.10.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.36.16.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 13.50.33.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Introduction 2023-05-06 14.22.11.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted Image 20230426160911_954.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230501160813.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230502164447.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506015526.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506020307.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506021301.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Pasted image 20230506023515.png\r\n\u001b[8Cnew file:   ../../Excalidraw/Synchoronization Solution 2023-04-26 17.21.58.excalidraw.md\r\n\u001b[8Cnew file:   ../../Excalidraw/Synchoronization Solution 2023-04-30 12.32.03.excalidraw.md\r\n\u001b[8Cmodified:   ../Introduction to Os.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Classical Problems of Synchronization.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Deadlock.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Introduction.md\r\n\u001b[8Cmodified:   ../Process Synchronization/Synchoronization Solution.md\r\n\u001b[8Cmodified:   ../Todo.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/workspace.json\r\n\r\n\u001b[0m$ add add ../../.obsidian/workspace.json                         \r\n/bin/sh: 13: add: not found\r\n$ git add                             \u001b[28D",
+                        "columns": 113,
+                        "data": "$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../../.obsidian/appearance.json\r\n\u001b[8Cmodified:   ../../.obsidian/graph.json\r\n\u001b[8Cmodified:   ../../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../../Engineering Mathematics/Linear Algebra/Introduction.md\r\n\u001b[8Cmodified:   ../../Excalidraw/Introduction 2023-05-06 13.36.16.excalidraw.md\r\n\u001b[8Cmodified:   ../Todo.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../../.obsidian/snippets/answer-callout.css\r\n\u001b[8C../../Excalidraw/Contiguous Memory Allocation 2023-05-07 01.30.43.excalidraw.md\r\n\u001b[8C../../Excalidraw/Contiguous Memory Allocation 2023-05-07 01.49.29.excalidraw.md\r\n\u001b[8C../../Excalidraw/Paging 2023-05-07 02.42.38.excalidraw.md\r\n\u001b[8C../../Excalidraw/Paging 2023-05-07 03.02.36.excalidraw.md\r\n\u001b[8C../../Excalidraw/Paging 2023-05-07 03.17.18.excalidraw.md\r\n\u001b[8C../../Excalidraw/Paging 2023-05-07 03.45.13.excalidraw.md\r\n\u001b[8C../../Excalidraw/Pasted image 20230507025314.png\r\n\u001b[8CContiguous Memory Allocation.md\r\n\u001b[8CPaging.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -A",
                         "rows": 15
                       }
                     }
@@ -125,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -211,23 +207,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f9d95a64767b3e0e",
+  "active": "d89158b51d8789f3",
   "lastOpenFiles": [
+    "Operating System/Memory Management/Paging.md",
+    "Excalidraw/Paging 2023-05-07 03.45.13.excalidraw.md",
+    "Excalidraw/Paging 2023-05-07 03.02.36.excalidraw.md",
+    "Excalidraw/Paging 2023-05-07 03.17.18.excalidraw.md",
+    "Excalidraw/Pasted image 20230507025314.png",
+    "Excalidraw/Paging 2023-05-07 02.42.38.excalidraw.md",
+    "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Operating System/Memory Management/Introduction.md",
+    "Excalidraw/Contiguous Memory Allocation 2023-05-07 01.49.29.excalidraw.md",
+    "Excalidraw/Contiguous Memory Allocation 2023-05-07 01.30.43.excalidraw.md",
+    "Operating System/Introduction to Os.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
+    "Operating System/Todo.md",
+    "Excalidraw/Introduction 2023-05-06 13.36.16.excalidraw.md",
+    "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Excalidraw/Introduction 2023-05-06 14.22.11.excalidraw.md",
     "Excalidraw/Introduction 2023-05-06 13.50.33.excalidraw.md",
-    "Excalidraw/Introduction 2023-05-06 13.36.16.excalidraw.md",
     "Excalidraw/Introduction 2023-05-06 13.32.10.excalidraw.md",
     "Excalidraw/Introduction 2023-05-06 13.21.22.excalidraw.md",
     "Excalidraw/Introduction 2023-05-06 13.14.12.excalidraw.md",
     "Excalidraw/Introduction 2023-05-06 13.01.44.excalidraw.md",
     "Excalidraw/Introduction 2023-05-06 12.56.08.excalidraw.md",
-    "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Operating System/Memory Management",
-    "Operating System/Todo.md",
     "Operating System/Process Synchronization/Introduction.md",
     "Synch.md",
-    "Operating System/Introduction to Os.md",
     "Operating System/Process Synchronization/Classical Problems of Synchronization.md",
     "Operating System/Process Synchronization/Deadlock.md",
     "Excalidraw/Pasted image 20230506023515.png",
@@ -237,23 +243,13 @@
     "Excalidraw/Deadlock 2023-05-06 01.28.01.excalidraw.md",
     "Excalidraw/Pasted image 20230501160813.png",
     "Excalidraw/Pasted image 20230502164447.png",
-    "Excalidraw/Deadlock 2023-05-01 16.02.29.excalidraw.md",
-    "Excalidraw/Classical Problems of Synchronization 2023-05-01 13.11.15.excalidraw.md",
-    "Excalidraw/Classical Problems of Synchronization 2023-04-30 12.48.33.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
-    "Engineering Mathematics/Untitled.md",
     "Engineering Mathematics/Linear Algebra",
     "Engineering Mathematics",
-    "Excalidraw/Synchoronization Solution 2023-04-30 12.32.03.excalidraw.md",
-    "Excalidraw/Synchoronization Solution 2023-04-26 17.21.58.excalidraw.md",
-    "Excalidraw/Introduction 2023-04-26 16.09.09.excalidraw.md",
     "Excalidraw/Pasted Image 20230426160911_954.png",
-    "Excalidraw/Drawing 2023-04-26 15.45.10.excalidraw.md",
     "CryptoGraphy",
     "Excalidraw/Pasted Image 20230425001533_289.png",
     "Excalidraw/Pasted Image 20230425000050_791.png",
     "Operating System/Process Synchronization",
-    "Excalidraw/Pasted image 20230417002335.png",
     "Mobile Computing",
     "Cryptography",
     "images",

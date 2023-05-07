@@ -1,7 +1,8 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "big-math"
+    "big-math",
+    "answer-callout"
   ],
   "cssTheme": "Things"
 }
