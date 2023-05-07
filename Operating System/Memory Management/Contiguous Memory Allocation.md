@@ -1,6 +1,6 @@
 Our memory is divided into two portion, one for user and one for operating system. 
 
-We can place the operating system in either high memory or low memory. The major factor in the decision is the location of the interrupt vector. Since the interrupt vector is often in the  low memory. Thus we usually place the operating system in a low memory as well.
+We can place the operating system in either high memory or low memory. The major factor in the decision is the location of the interrupt vector. Since the interrupt vector is often in the  low memory. Thus we usually place the operating system in a low memory as well. ^cf2703
 
 >[!homework]
 >Find what the above para is trying to convey.
@@ -52,7 +52,7 @@ Both the first fit and the best fit strategy suffer from *external fragmentation
 ![[Contiguous Memory Allocation 2023-05-07 01.49.29.excalidraw]]
 When there is enough total memory to satisfy a request but the available spaces are not contagious, i.e storage is fragments into a large number of holes. This is known as external fragmentation.
 
-Statistical analysis of first fit, for instance, reveals that, even with some optimization given N allocated blocks, another 0.5N blocks would be lost to fragmentation. This property is known as the *50-percent rule.*
+Statistical analysis of first fit, for instance, reveals that, even with some optimization given N allocated blocks, another $0.5N$ blocks would be lost to fragmentation. This property is known as the *50-percent rule.*
 
 ### Solution: Compaction
 Shuffle memory contents so that all the available space forms a single large hole. Squeeze to one side.
