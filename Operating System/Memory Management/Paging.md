@@ -169,6 +169,7 @@ If this is not present then we would have to flush the TLB every time we execute
 
 > [!Question]
 > Consider a system with memory mapping done on a page basis, and using a single level page table. Assume that the page table is always in memory.
+> 
 > (a) If a memory reference takes 100 ns. Then how long does it take to access the data at a given address. Assume no TLB is present.
 > (b) Now we add we add TLB which imposes a 15 ns overhead on either hit or miss. If we assume that 90 percent of all memory accesses are a TLB hit, what is the Effective memory access time?
 > > [!answer]-

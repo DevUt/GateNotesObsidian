@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "eb3c7a607d1060e1",
+        "id": "7b022614b8f1b61c",
         "type": "split",
         "children": [
           {
-            "id": "86958502ab1be730",
+            "id": "cf5017b492a2cf12",
             "type": "tabs",
             "children": [
               {
-                "id": "5f8f8e1f7da6a6e5",
+                "id": "ce1a919407baf9bf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Operating System/Memory Management/Paging.md",
+                    "file": "Operating System/Process Synchronization/Synchoronization Solution.md",
                     "mode": "source",
                     "source": false
                   }
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "4f28925b6ec38892",
+            "id": "b8ea12a04b1117a2",
             "type": "tabs",
             "children": [
               {
-                "id": "c5dc418afb7a5aa9",
+                "id": "5fbcf9ecf6a36a2f",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -50,8 +50,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 142,
-                        "data": "$ git add -A\u001b[1B\u001b[12D",
+                        "columns": 113,
+                        "data": "$ git add -A",
                         "rows": 15
                       }
                     }
@@ -81,7 +81,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -206,9 +205,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c5dc418afb7a5aa9",
+  "active": "5fbcf9ecf6a36a2f",
   "lastOpenFiles": [
+    "Operating System/Process Synchronization/Synchoronization Solution.md",
+    "Operating System/Process/Process.md",
+    "Operating System/Process/Scheduling Algorithms.md",
+    "Operating System/Process/Process Scheduling.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
+    "Engineering Mathematics/Linear Algebra/Ax = b.md",
+    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Operating System/Memory Management/Paging.md",
+    "Operating System/Memory Management/Contiguous Memory Allocation.md",
+    "Operating System/Memory Management/Introduction.md",
+    "Operating System/Process Synchronization/Classical Problems of Synchronization.md",
     "Excalidraw/Paging 2023-05-08 02.13.03.excalidraw.md",
     "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
     "Excalidraw/Paging 2023-05-08 01.34.11.excalidraw.md",
@@ -220,25 +229,15 @@
     "Excalidraw/Paging 2023-05-07 17.51.22.excalidraw.md",
     "Excalidraw/Paging 2023-05-07 17.46.24.excalidraw.md",
     "Excalidraw/Paging 2023-05-07 17.45.04.excalidraw.md",
-    "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Excalidraw/Drawing 2023-05-07 16.48.39.excalidraw.md",
     "Excalidraw/Drawing 2023-05-07 16.48.08.excalidraw.md",
     "Excalidraw/Drawing 2023-05-07 16.46.19.excalidraw.md",
     "Operating System/Todo.md",
-    "Operating System/Memory Management/Introduction.md",
     "Excalidraw/Paging 2023-05-07 03.02.36.excalidraw.md",
     "Excalidraw/Paging 2023-05-07 03.45.13.excalidraw.md",
     "Excalidraw/Paging 2023-05-07 03.17.18.excalidraw.md",
     "Excalidraw/Pasted image 20230507025314.png",
     "Excalidraw/Paging 2023-05-07 02.42.38.excalidraw.md",
-    "Excalidraw/Contiguous Memory Allocation 2023-05-07 01.49.29.excalidraw.md",
-    "Excalidraw/Contiguous Memory Allocation 2023-05-07 01.30.43.excalidraw.md",
-    "Operating System/Introduction to Os.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
-    "Excalidraw/Introduction 2023-05-06 13.36.16.excalidraw.md",
-    "Operating System/Process Synchronization/Synchoronization Solution.md",
-    "Excalidraw/Introduction 2023-05-06 14.22.11.excalidraw.md",
-    "Excalidraw/Introduction 2023-05-06 13.50.33.excalidraw.md",
     "Operating System/Memory Management",
     "Excalidraw/Pasted image 20230506023515.png",
     "Excalidraw/Pasted image 20230506021301.png",
