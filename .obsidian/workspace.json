@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "7b022614b8f1b61c",
+        "id": "e7b90d0563f76296",
         "type": "split",
         "children": [
           {
@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Operating System/Process Synchronization/Synchoronization Solution.md",
+                    "file": "Engineering Mathematics/Linear Algebra/Ax = b.md",
                     "mode": "source",
                     "source": false
                   }
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "b8ea12a04b1117a2",
+            "id": "7880f16e71f20eca",
             "type": "tabs",
             "children": [
               {
-                "id": "5fbcf9ecf6a36a2f",
+                "id": "0f5063c5a80acfcd",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -50,8 +50,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 113,
-                        "data": "$ git add -A",
+                        "columns": 112,
+                        "data": "$ git add -",
                         "rows": 15
                       }
                     }
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 267.5
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -205,19 +205,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5fbcf9ecf6a36a2f",
+  "active": "0f5063c5a80acfcd",
   "lastOpenFiles": [
-    "Operating System/Process Synchronization/Synchoronization Solution.md",
-    "Operating System/Process/Process.md",
-    "Operating System/Process/Scheduling Algorithms.md",
-    "Operating System/Process/Process Scheduling.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
     "Engineering Mathematics/Linear Algebra/Ax = b.md",
     "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Operating System/Memory Management/Paging.md",
     "Operating System/Memory Management/Contiguous Memory Allocation.md",
-    "Operating System/Memory Management/Introduction.md",
+    "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Operating System/Process Synchronization/Classical Problems of Synchronization.md",
+    "Operating System/Process Synchronization/Introduction.md",
+    "Operating System/Process/Process.md",
+    "Operating System/Process/Scheduling Algorithms.md",
+    "Operating System/Process/Process Scheduling.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
+    "Operating System/Memory Management/Introduction.md",
     "Excalidraw/Paging 2023-05-08 02.13.03.excalidraw.md",
     "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
     "Excalidraw/Paging 2023-05-08 01.34.11.excalidraw.md",
@@ -237,7 +238,6 @@
     "Excalidraw/Paging 2023-05-07 03.45.13.excalidraw.md",
     "Excalidraw/Paging 2023-05-07 03.17.18.excalidraw.md",
     "Excalidraw/Pasted image 20230507025314.png",
-    "Excalidraw/Paging 2023-05-07 02.42.38.excalidraw.md",
     "Operating System/Memory Management",
     "Excalidraw/Pasted image 20230506023515.png",
     "Excalidraw/Pasted image 20230506021301.png",
