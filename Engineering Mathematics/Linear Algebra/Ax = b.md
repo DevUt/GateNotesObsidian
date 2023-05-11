@@ -27,3 +27,8 @@ x and b only have 1 column
 >> [!answer]-
 >> We cannot say, because the "some solution" maybe the trivial solution.
 
+
+$\begin{pmatrix}k_{1} & k_{2} & k_{3} \\ p_{1} & p_{2} & p_{3}\end{pmatrix}_{2 \times 3} \begin{pmatrix}x_{1}\\ x_{2} \\ x_{3}\end{pmatrix}_{3 \times 1}=\begin{pmatrix}b_{1} \\ b_{2}\end{pmatrix}_{2 \times 1}$
+
+$\displaylines{k_{1}x_{1}+k_{2}x_{2}+ k_{3}x_{3} &= b_{1}\\ p_{1}x_{1}+p_{2}x_{2}+p_{3}x_{3} &= b_{2} }$
+

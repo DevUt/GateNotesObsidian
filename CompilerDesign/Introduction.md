@@ -1,4 +1,4 @@
-	## Parts of Compiler
+## Parts of Compiler
 ![[Introduction 2023-04-08 22.14.12.excalidraw]]
 
 ## Lexical Analysis 
@@ -18,7 +18,7 @@ int x <= == y;
 | else       | characters e,l,s,e   | else          |
 | comparison | <,>,<= , >=, == , != | <=            |
 | number     |                      | 3.149, 160,0  |
-| literal    | "....."              | "hello"              |
+| literal    | "....."              | "hello"       |
 
 Lexeme may or may not be valid
 
