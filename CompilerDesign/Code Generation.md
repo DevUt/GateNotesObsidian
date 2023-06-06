@@ -12,7 +12,7 @@
 
 ## Input to Code Generator
 - Input to Code Generator is the intermediate representation of the source program by the front end.
-- It also contains the symbol table to determine the  addresses of the data object.
+- It also contains the symbol table to determine the addresses of the data object.
 - Prior to code generation the parser has already done input sanitization 
 
 ## Target Program

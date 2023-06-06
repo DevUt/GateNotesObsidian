@@ -23,9 +23,9 @@ For CFG $G$
 
 - For each production $A \rightarrow \alpha$ in $G$ do
 	- for each terminal $t$ $\epsilon\; \text{First}(\alpha)$ do
-		- T[A,t] = A $\rightarrow \; \alpha$
+		- T\[A,t\] = A $\rightarrow \; \alpha$
 		- if $\epsilon \in \text{First}(\alpha)$ for each $t\in \text{Follow}(A)$ do
-			- T[A,T] = $A \rightarrow \alpha$
+			- T\[A,T\] = $A \rightarrow \alpha$
 
 
 Q

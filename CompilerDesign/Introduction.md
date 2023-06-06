@@ -1,4 +1,4 @@
-## Parts of Compiler
+ ## Parts of Compiler
 ![[Introduction 2023-04-08 22.14.12.excalidraw]]
 
 ## Lexical Analysis 

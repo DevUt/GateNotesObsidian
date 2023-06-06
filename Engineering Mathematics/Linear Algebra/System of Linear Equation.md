@@ -32,4 +32,30 @@ $\begin{pmatrix}a_{11} & a_{12} & \cdots & a_{1n} \\ \vdots \\ a_{m1} & a_{m2} &
 >> Hence we can generate any vector $b$.
 >> Hence the solution always exist.
 
+----
+>[!question]
+>Consider a matrix $A_{m \times n}$. 
+>For a system $Ax = b$ what can you say about below statement.
+>Statement: If $m < n$ then $Ax = b$ always have a solution.
+
+>[!question]
+>Every system of 3 equation in 8 unknown has a solution
+
+>[!question]
+>If A and B are $m \times n$ such that B can be obtained from A by column operation then A can also be obtained from B by column operation.
+
+>[!question]
+>GATE 2016
+>$m$ linear equation $n$ variables
+>1. If $m<n$ then all such system have a solution
+>2. If  $m>n$ then none of these system have a solution 
+>3. If $m == n$ then $\exists$ a system which has a solution
+
+$\begin{pmatrix}\\ a_{1} & a_2 & a_{3} \\ & \cdots \end{pmatrix}\begin{pmatrix}\\ b_{1} & b_2 & b_{3} \\ & \cdots  \end{pmatrix}= \begin{pmatrix}\\ c_{1} & c_{2} & c_{3} \\ & \cdots  \end{pmatrix}$
+
+$c_{1} = b_{1}a_{1} + b_{1}a_{2} + b_{1}a_{3}$
+
+>[!question]
+>Is the set of column in resultant matrix independent ? If no, then what is the size of the set having maximum columns and still being independent
+>$A  = \begin{pmatrix}2 \\ -4 \\ 7\end{pmatrix}\begin{pmatrix}1 & 9 & 5\end{pmatrix}$ 
 

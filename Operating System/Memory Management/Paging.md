@@ -1,4 +1,4 @@
-Paging is a memory management scheme that allows the process memory to be non contiguous. 
+	Paging is a memory management scheme that allows the process memory to be non contiguous. 
 
 # Basic Method
 

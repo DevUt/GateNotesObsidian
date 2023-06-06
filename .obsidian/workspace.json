@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "aa8cd31f266d3251",
+        "id": "4a2a193ab2b5bd23",
         "type": "split",
         "children": [
           {
-            "id": "3bbe1ce26eb8be24",
+            "id": "3a65a4cbf144af73",
             "type": "tabs",
             "children": [
               {
-                "id": "e32f52a7b0165511",
+                "id": "98470155269b1e3a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "CompilerDesign/Introduction.md",
+                    "file": "Operating System/Memory Management/Paging.md",
                     "mode": "source",
                     "source": false
                   }
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "144bcd4303bf9078",
+            "id": "1773f2b2305b0001",
             "type": "tabs",
             "children": [
               {
-                "id": "6d9e246f45c6ba7f",
+                "id": "33383dff91f3e753",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -51,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 112,
-                        "data": "$ git add -A\r\ngig   \r\n/bin/sh: 2: g: not found\r\n$ git status --staged\r\nerror: unknown option `staged'\r\nusage: git status [<options>] [--] <pathspec>...\r\n\r\n    -v, --verbose         be verbose\r\n    -s, --short           show status concisely\r\n    -b, --branch          show branch information\r\n    --show-stash          show stash information\r\n    --ahead-behind        compute full ahead/behind values\r\n    --porcelain[=<version>]\r\n                          machine-readable output\r\n    --long                show status in long format (default)\r\n    -z, --null            terminate entries with NUL\r\n    -u, --untracked-files[=<mode>]\r\n                          show untracked files, optional modes: all, normal, no. (Default: all)\r\n    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)\r\n    --ignore-submodules[=<when>]\r\n                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)\r\n    --column[=<style>]    list untracked files in columns\r\n    --no-renames          do not detect renames\r\n    -M, --find-renames[=<n>]\r\n                          detect renames, optionally set similarity index\r\n\r\n$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   CompilerDesign/Introduction.md\r\n\u001b[8Cmodified:   Engineering Mathematics/Linear Algebra/Ax = b.md\r\n\u001b[8Cnew file:   Excalidraw/Drawing 2023-05-11 01.13.38.excalidraw.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0m$ git add -A",
+                        "data": "$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   CompilerDesign/Code Generation.md\r\n\u001b[8Cmodified:   CompilerDesign/Introduction.md\r\n\u001b[8Cmodified:   CompilerDesign/Predictive Parsing.md\r\n\u001b[8Cmodified:   Engineering Mathematics/Linear Algebra/System of Linear Equation.md\r\n\u001b[8Cmodified:   Operating System/Memory Management/Paging.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/quick-latex/data.json\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -A",
                         "rows": 15
                       }
                     }
@@ -205,38 +205,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6d9e246f45c6ba7f",
+  "active": "33383dff91f3e753",
   "lastOpenFiles": [
+    "Operating System/Memory Management/Paging.md",
+    "Engineering Mathematics/Linear Algebra/Ax = b.md",
+    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
+    "Operating System/Process Synchronization/Introduction.md",
+    "Operating System/Process Synchronization/Synchoronization Solution.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
+    "CompilerDesign/Intermediate Code Generation.md",
+    "CompilerDesign/Code Generation.md",
+    "CompilerDesign/Code Optimization.md",
+    "Operating System/Memory Management/Contiguous Memory Allocation.md",
+    "Operating System/Memory Management/Introduction.md",
+    "CompilerDesign/Bottm Up Parsing.md",
+    "Operating System/Process/Process Scheduling.md",
+    "CompilerDesign/Loaders.md",
+    "CompilerDesign/Predictive Parsing.md",
+    "CompilerDesign/First and Follow.md",
+    "CompilerDesign/Parsing.md",
+    "CompilerDesign/Left recursion.md",
     "CompilerDesign/Introduction.md",
     "CompilerDesign/Problems in Parsing.md",
     "Excalidraw/Drawing 2023-05-11 01.13.38.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
-    "Engineering Mathematics/Linear Algebra/Ax = b.md",
-    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
-    "Operating System/Memory Management/Paging.md",
-    "Operating System/Memory Management/Contiguous Memory Allocation.md",
-    "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Operating System/Process Synchronization/Classical Problems of Synchronization.md",
-    "Operating System/Process Synchronization/Introduction.md",
     "Operating System/Process/Process.md",
     "Operating System/Process/Scheduling Algorithms.md",
-    "Operating System/Process/Process Scheduling.md",
-    "Operating System/Memory Management/Introduction.md",
     "Excalidraw/Paging 2023-05-08 02.13.03.excalidraw.md",
     "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
-    "Excalidraw/Paging 2023-05-08 01.34.11.excalidraw.md",
     "Excalidraw/Pasted image 20230507183236.png",
     "Excalidraw/Pasted image 20230507181928.png",
     "Excalidraw/Pasted image 20230507181710.png",
     "Excalidraw/Pasted image 20230507180921.png",
-    "Excalidraw/Paging 2023-05-07 17.53.17.excalidraw.md",
-    "Excalidraw/Paging 2023-05-07 17.51.22.excalidraw.md",
-    "Excalidraw/Paging 2023-05-07 17.46.24.excalidraw.md",
-    "Excalidraw/Paging 2023-05-07 17.45.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-07 16.48.39.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-07 16.48.08.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-07 16.46.19.excalidraw.md",
-    "Operating System/Todo.md",
     "Excalidraw/Pasted image 20230507025314.png",
     "Operating System/Memory Management",
     "Excalidraw/Pasted image 20230506023515.png",
