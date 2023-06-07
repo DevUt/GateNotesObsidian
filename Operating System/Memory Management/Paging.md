@@ -98,7 +98,7 @@ If we had smaller page sizes -> we would less internal fragmentation.
 
 ![[Paging 2023-05-07 17.46.24.excalidraw]]
 But if we have smaller pages -> We would need more pages.
-It would lead  to a larger page table -> More overhead
+It would lead to a larger page table -> More overhead
 
 ---
 
@@ -237,3 +237,80 @@ Page size = 8 bytes
 Logical address space = 1024 bytes
 
 We need to map the logical address of 800 to physical address.
+
+
+Flat level:
+![[Paging 2023-06-06 14.47.57.excalidraw]]
+
+Multi-level
+
+![[Paging 2023-06-06 14.52.57.excalidraw]]
+
+$\text{Page Number} = \frac{\text{Logical address}}{\text{page size}}$
+$\text{offset} = \text{Logical address} \mathbin{\%} \text{page size}$
+
+$\text{Page Number}_2 = \frac{\text{Page Number}}{\text{page size}_2}$
+$\text{offset}_2 = \text{Page Number} \mathbin{\%} \text{page size}_2$
+
+
+Its very easy in binary
+
+807 -> 11 | 00100 | 111
+
+![[Pasted image 20230606151203.png]]
+
+>[!question]
+>Consider a byte-addressable processor architecture with a 30-bit virtual address. In this architecture, the MMU expects a three level page structure: the upper 7 bits of an address determine the index to the first level page table, the next 7 bits determine the second level, the next 7 in the 3rd level, the bottom 9 bits determine the offset.
+>
+>1. How many entries are in the first level page table?
+>2. How many entries are in the third level page table?
+>3. What is page size ?
+>4. What is the max number of virtual pages per process?
+>>[!answer]-
+>>1. $2^7$ entries due to 7 bits
+>>2. $2^7$ entries due to 7 bits
+>>3. $2^9$ bytes
+>>4. $2^21$ 
+
+>[!question]
+> Virtual address - 40 bits
+> Physical address - 40 bits
+> Physical page size - 64 Kb
+> Page table entry - 8 bytes
+> 
+> a) For a single level page how many page table entries are needed? How much memory needed to store the page table?
+> 
+> b) In general, the virtual address space of the process is almost empty. To reduce the size of the page table, a multilevel page table is used for address translation. How many levels of page tables will be needed for address translation, given that the size of page table at any level is the size of a physical page? Draw a virtual address showing the numbers of bits for the page table index at each level and the page offset.
+
+
+>[!question]
+>In a 32-bit machine we subdivide the virtual address into 4 segments as follows,
+>10 bit - 8 bit - 6 bit - 8 bit
+>We use a 3-level page table, such that the first 10-bit are for the first level and so on.
+>1. What is the page size in such a system?
+>2. What is the size of a page table for a process that has 256K of memory starting at address 0?
+>3. What is the number of valid entries at each level in the above setting?
+>4.  What is the size of a page table for a process that has a code segment of 48K starting at address 0x1000000, a data segment of 600K starting at address 0x80000000 and a stack segment of 64K starting at address 0xf0000000 and growing upward (like in the PA-RISC of HP)?
+>>[!answer]-
+>>1. $2^8$ bytes
+>>2. $(2^{10}+ 2^{8}+2^{4} \times 2^{6})\times 2$
+>>3. 1 valid - $2^{4}$ valid - $2^{6}$ valid - ~
+
+![[Paging 2023-06-06 15.58.14.excalidraw]]
+
+>[!question]
+>GATE 2023
+>Consider a computer system with 57-bit virtual addressing using multi-level
+ tree-structured page tables with L levels for virtual to physical address translation.
+ The page size is 4 KB (1 KB = 1024 B) and a page table entry at any of the levels
+ occupies 8 bytes. 
+ The value of L is __
+ 
+ 
+ 
+
+
+
+
+
+

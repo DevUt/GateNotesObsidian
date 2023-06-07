@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4a2a193ab2b5bd23",
+        "id": "021dcb661b7c9a22",
         "type": "split",
         "children": [
           {
@@ -22,15 +22,35 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "c55194d96002701b",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "3a4f52ad914bcd44",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Paging 2023-06-06 15.58.14.excalidraw.md"
+                  }
+                }
               }
             ]
           },
           {
-            "id": "1773f2b2305b0001",
+            "id": "d60b67f14b60b5f6",
             "type": "tabs",
             "children": [
               {
-                "id": "33383dff91f3e753",
+                "id": "8d5283bdd10a6d41",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -50,8 +70,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 112,
-                        "data": "$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   CompilerDesign/Code Generation.md\r\n\u001b[8Cmodified:   CompilerDesign/Introduction.md\r\n\u001b[8Cmodified:   CompilerDesign/Predictive Parsing.md\r\n\u001b[8Cmodified:   Engineering Mathematics/Linear Algebra/System of Linear Equation.md\r\n\u001b[8Cmodified:   Operating System/Memory Management/Paging.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/quick-latex/data.json\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -A",
+                        "columns": 142,
+                        "data": "$ git add -A",
                         "rows": 15
                       }
                     }
@@ -120,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -205,9 +226,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33383dff91f3e753",
+  "active": "8d5283bdd10a6d41",
   "lastOpenFiles": [
     "Operating System/Memory Management/Paging.md",
+    "Excalidraw/Paging 2023-06-06 15.58.14.excalidraw.md",
+    "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
+    "Excalidraw/Pasted image 20230606151203.png",
+    "Excalidraw/Paging 2023-06-06 15.10.39.excalidraw.md",
+    "Excalidraw/Paging 2023-06-06 14.52.57.excalidraw.md",
+    "Excalidraw/Paging 2023-06-06 14.47.57.excalidraw.md",
+    "Excalidraw/Paging 2023-05-08 02.13.03.excalidraw.md",
     "Engineering Mathematics/Linear Algebra/Ax = b.md",
     "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Operating System/Process Synchronization/Introduction.md",
@@ -227,12 +255,6 @@
     "CompilerDesign/Left recursion.md",
     "CompilerDesign/Introduction.md",
     "CompilerDesign/Problems in Parsing.md",
-    "Excalidraw/Drawing 2023-05-11 01.13.38.excalidraw.md",
-    "Operating System/Process Synchronization/Classical Problems of Synchronization.md",
-    "Operating System/Process/Process.md",
-    "Operating System/Process/Scheduling Algorithms.md",
-    "Excalidraw/Paging 2023-05-08 02.13.03.excalidraw.md",
-    "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
     "Excalidraw/Pasted image 20230507183236.png",
     "Excalidraw/Pasted image 20230507181928.png",
     "Excalidraw/Pasted image 20230507181710.png",
@@ -243,7 +265,6 @@
     "Excalidraw/Pasted image 20230506021301.png",
     "Excalidraw/Pasted image 20230506020307.png",
     "Excalidraw/Pasted image 20230506015526.png",
-    "Excalidraw/Pasted image 20230501160813.png",
     "Engineering Mathematics/Linear Algebra",
     "Engineering Mathematics",
     "CryptoGraphy",
