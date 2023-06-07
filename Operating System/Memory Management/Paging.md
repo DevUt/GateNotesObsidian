@@ -1,4 +1,4 @@
-	Paging is a memory management scheme that allows the process memory to be non contiguous. 
+Paging is a memory management scheme that allows the process memory to be non contiguous. 
 
 # Basic Method
 
@@ -293,9 +293,10 @@ Its very easy in binary
 >4.  What is the size of a page table for a process that has a code segment of 48K starting at address 0x1000000, a data segment of 600K starting at address 0x80000000 and a stack segment of 64K starting at address 0xf0000000 and growing upward (like in the PA-RISC of HP)?
 >>[!answer]-
 >>1. $2^8$ bytes
->>2. $(2^{10}+ 2^{8}+2^{4} \times 2^{6})\times 2$
+>>2. $(2^{10}+ 2^{8}+2^{4} \times 2^{6})\times 2$ (Assuming size of PTE is 2 bytes)
 >>3. 1 valid - $2^{4}$ valid - $2^{6}$ valid - ~
-
+>>4. First, the stack, data and code segments are at addresses that require having 3 page tables entries active in the first level page table. For 64K, you need 256 pages, or 4 third-level page tables. For 600K, you need 2400 pages, or 38 third-level page tables and for 48K you need 192 pages or 3 third-level page tables. Assuming 2 bytes per entry, the space required is $\displaylines1{024 * 2 + 256 * 3 * 2 \text{(3 second-level page tables)}\\ + 64 * (38+4+3)* 2 \text{(38 third-level page tables for data segment, 4 for stack and 3 for code segment)}\\ = 9344 bytes.}$
+![[Paging 2023-06-08 00.49.29.excalidraw]]
 ![[Paging 2023-06-06 15.58.14.excalidraw]]
 
 >[!question]
@@ -305,12 +306,27 @@ Its very easy in binary
  The page size is 4 KB (1 KB = 1024 B) and a page table entry at any of the levels
  occupies 8 bytes. 
  The value of L is __
- 
- 
- 
+ >[!answer]-
+ >We have to fit the page table inside a page. Hence $\frac{2^{12}}{2^{3}}= 2^{9}$
+ >$45/9 = 5$ Therefore L = 5
 
+# Hashed Page Table
 
+We hash the virtual page number and map it to the actual physical frame. 
 
+In the table we a single entry consists of three fields
+1. Virtual page number
+2. The value of mapped page number
+3. Pointer to the next element in the linked list.
 
+# Inverted Page table
+GFG ahead.
+
+An alternate approach is to use the **Inverted Page Table** structure that consists of a one-page table entry for every frame of the main memory. So the number of page table entries in the Inverted Page Table reduces to the number of frames in physical memory and a single page table is used to represent the paging information of all the processes. Through the inverted page table, the overhead of storing an individual page table for every process gets eliminated and only a fixed portion of memory is required to store the paging information of all the processes together. This technique is called inverted paging as the indexing is done with respect to the frame number instead of the logical page number. Each entry in the page table contains the following fields.
+
+- **Page number –** It specifies the page number range of the logical address.
+- **Process id –** An inverted page table contains the address space information of all the processes in execution. Since two different processes can have a similar set of virtual addresses, it becomes necessary in the Inverted Page Table to store a process Id of each process to identify its address space uniquely. This is done by using the combination of PId and Page Number. So this Process Id acts as an address space identifier and ensures that a virtual page for a particular process is mapped correctly to the corresponding physical frame.
+- **Control bits –** These bits are used to store extra paging-related information. These include the valid bit, dirty bit, reference bits, protection, and locking information bits.
+- **Chained pointer –** It may be possible sometimes that two or more processes share a part of the main memory. In this case, two or more logical pages map to the same Page Table Entry then a chaining pointer is used to map the details of these logical pages to the root page table.
 
 

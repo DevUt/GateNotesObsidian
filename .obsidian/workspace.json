@@ -4,53 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "021dcb661b7c9a22",
+        "id": "9ee04dcbde1a6430",
         "type": "split",
         "children": [
           {
-            "id": "3a65a4cbf144af73",
+            "id": "ebe371919fd9f300",
             "type": "tabs",
             "children": [
               {
-                "id": "98470155269b1e3a",
+                "id": "5c31af5709e5883b",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Operating System/Memory Management/Paging.md",
+                    "file": "Operating System/Virtual Memory Management/Demand Paging.md",
                     "mode": "source",
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "c55194d96002701b",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md"
-                  }
-                }
-              },
-              {
-                "id": "3a4f52ad914bcd44",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Paging 2023-06-06 15.58.14.excalidraw.md"
                   }
                 }
               }
             ]
           },
           {
-            "id": "d60b67f14b60b5f6",
+            "id": "a7bfff4bf95bed1c",
             "type": "tabs",
             "children": [
               {
-                "id": "8d5283bdd10a6d41",
+                "id": "b68b6e2b02ceb832",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -71,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 142,
-                        "data": "$ git add -A",
+                        "data": "$ git add ",
                         "rows": 15
                       }
                     }
@@ -226,11 +206,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8d5283bdd10a6d41",
+  "active": "b68b6e2b02ceb832",
   "lastOpenFiles": [
-    "Operating System/Memory Management/Paging.md",
-    "Excalidraw/Paging 2023-06-06 15.58.14.excalidraw.md",
+    "Operating System/Virtual Memory Management/Demand Paging.md",
+    "Operating System/Memory Management/Untitled.md",
+    "Operating System/Virtual Memory Management",
+    "Operating System/Memory Management/Segmentation.md",
     "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
+    "Excalidraw/Pasted image 20230608013134.png",
+    "Operating System/Memory Management/Paging.md",
+    "Excalidraw/Paging 2023-06-08 00.49.29.excalidraw.md",
+    "Excalidraw/Paging 2023-06-06 15.58.14.excalidraw.md",
     "Excalidraw/Pasted image 20230606151203.png",
     "Excalidraw/Paging 2023-06-06 15.10.39.excalidraw.md",
     "Excalidraw/Paging 2023-06-06 14.52.57.excalidraw.md",
@@ -251,10 +237,6 @@
     "CompilerDesign/Loaders.md",
     "CompilerDesign/Predictive Parsing.md",
     "CompilerDesign/First and Follow.md",
-    "CompilerDesign/Parsing.md",
-    "CompilerDesign/Left recursion.md",
-    "CompilerDesign/Introduction.md",
-    "CompilerDesign/Problems in Parsing.md",
     "Excalidraw/Pasted image 20230507183236.png",
     "Excalidraw/Pasted image 20230507181928.png",
     "Excalidraw/Pasted image 20230507181710.png",
@@ -264,7 +246,6 @@
     "Excalidraw/Pasted image 20230506023515.png",
     "Excalidraw/Pasted image 20230506021301.png",
     "Excalidraw/Pasted image 20230506020307.png",
-    "Excalidraw/Pasted image 20230506015526.png",
     "Engineering Mathematics/Linear Algebra",
     "Engineering Mathematics",
     "CryptoGraphy",
@@ -273,7 +254,6 @@
     "Cryptography",
     "images",
     "Operating System/Process",
-    "Operating System/Process Scheduling.tex",
     "Untitled.canvas"
   ]
 }
