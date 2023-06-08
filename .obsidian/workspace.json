@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9ee04dcbde1a6430",
+        "id": "77492cab4fe65375",
         "type": "split",
         "children": [
           {
@@ -22,15 +22,35 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "2e113350c5902508",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Demand Paging 2023-06-08 22.36.38.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "5d72f8aac06451b4",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Demand Paging 2023-06-08 22.12.45.excalidraw.md"
+                  }
+                }
               }
             ]
           },
           {
-            "id": "a7bfff4bf95bed1c",
+            "id": "e321f46fab12dd4f",
             "type": "tabs",
             "children": [
               {
-                "id": "b68b6e2b02ceb832",
+                "id": "43452abbd69fdcb1",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -51,7 +71,7 @@
                       },
                       "serial": {
                         "columns": 142,
-                        "data": "$ git add ",
+                        "data": "$ git add -A\r\n   \u001b[3D",
                         "rows": 15
                       }
                     }
@@ -206,9 +226,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b68b6e2b02ceb832",
+  "active": "43452abbd69fdcb1",
   "lastOpenFiles": [
     "Operating System/Virtual Memory Management/Demand Paging.md",
+    "Excalidraw/Demand Paging 2023-06-08 22.36.38.excalidraw.md",
+    "Excalidraw/Demand Paging 2023-06-08 22.12.45.excalidraw.md",
+    "Operating System/Todo.md",
+    "Operating System/Process Synchronization/Synchoronization Solution.md",
+    "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Operating System/Memory Management/Untitled.md",
     "Operating System/Virtual Memory Management",
     "Operating System/Memory Management/Segmentation.md",
@@ -225,18 +250,13 @@
     "Engineering Mathematics/Linear Algebra/Ax = b.md",
     "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Operating System/Process Synchronization/Introduction.md",
-    "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Engineering Mathematics/Linear Algebra/Introduction.md",
     "CompilerDesign/Intermediate Code Generation.md",
     "CompilerDesign/Code Generation.md",
     "CompilerDesign/Code Optimization.md",
-    "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Operating System/Memory Management/Introduction.md",
     "CompilerDesign/Bottm Up Parsing.md",
     "Operating System/Process/Process Scheduling.md",
-    "CompilerDesign/Loaders.md",
-    "CompilerDesign/Predictive Parsing.md",
-    "CompilerDesign/First and Follow.md",
     "Excalidraw/Pasted image 20230507183236.png",
     "Excalidraw/Pasted image 20230507181928.png",
     "Excalidraw/Pasted image 20230507181710.png",
