@@ -4,15 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "77492cab4fe65375",
+        "id": "343983eebb450c43",
         "type": "split",
         "children": [
           {
-            "id": "ebe371919fd9f300",
+            "id": "cb6fdf0ccf8167f5",
             "type": "tabs",
             "children": [
               {
-                "id": "5c31af5709e5883b",
+                "id": "edf0e86094cccf64",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -22,37 +22,16 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "2e113350c5902508",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Demand Paging 2023-06-08 22.36.38.excalidraw.md"
-                  }
-                }
-              },
-              {
-                "id": "5d72f8aac06451b4",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Demand Paging 2023-06-08 22.12.45.excalidraw.md"
-                  }
-                }
               }
             ]
           },
           {
-            "id": "e321f46fab12dd4f",
+            "id": "cc1e97abc21446f6",
             "type": "tabs",
             "children": [
               {
-                "id": "43452abbd69fdcb1",
+                "id": "cb61eda5f687f1c1",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
@@ -70,13 +49,12 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 142,
-                        "data": "$ git add -A\r\n   \u001b[3D",
+                        "columns": 112,
+                        "data": "$ git add -A\u001b[1B\u001b[12D",
                         "rows": 15
                       }
                     }
-                  },
-                  "pinned": true
+                  }
                 }
               }
             ]
@@ -140,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "c369ba5ab21c92e3",
@@ -226,12 +203,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43452abbd69fdcb1",
+  "active": "cb61eda5f687f1c1",
   "lastOpenFiles": [
     "Operating System/Virtual Memory Management/Demand Paging.md",
-    "Excalidraw/Demand Paging 2023-06-08 22.36.38.excalidraw.md",
-    "Excalidraw/Demand Paging 2023-06-08 22.12.45.excalidraw.md",
     "Operating System/Todo.md",
+    "Operating System/Memory Management/Paging.md",
+    "Operating System/Process/Threading.md",
+    "Excalidraw/Pasted image 20230610030630.png",
+    "Excalidraw/Threading 2023-06-10 03.01.25.excalidraw.md",
+    "Excalidraw/Pasted image 20230610025620.png",
+    "Operating System/Process/Fork() and exec().md",
+    "Excalidraw/Fork() and exec() 2023-06-10 02.49.19.excalidraw.md",
+    "Excalidraw/Fork() and exec() 2023-06-10 02.39.10.excalidraw.md",
+    "Excalidraw/Fork() and exec() 2023-06-10 02.23.58.excalidraw.md",
+    "Excalidraw/Fork() and exec() 2023-06-10 02.15.50.excalidraw.md",
+    "Operating System/Process/Process.md",
+    "Operating System/Process/Scheduling Algorithms.md",
+    "Excalidraw/Demand Paging 2023-06-08 22.12.45.excalidraw.md",
+    "Excalidraw/Demand Paging 2023-06-08 22.36.38.excalidraw.md",
     "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Operating System/Memory Management/Untitled.md",
@@ -239,7 +228,6 @@
     "Operating System/Memory Management/Segmentation.md",
     "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
     "Excalidraw/Pasted image 20230608013134.png",
-    "Operating System/Memory Management/Paging.md",
     "Excalidraw/Paging 2023-06-08 00.49.29.excalidraw.md",
     "Excalidraw/Paging 2023-06-06 15.58.14.excalidraw.md",
     "Excalidraw/Pasted image 20230606151203.png",
@@ -247,16 +235,6 @@
     "Excalidraw/Paging 2023-06-06 14.52.57.excalidraw.md",
     "Excalidraw/Paging 2023-06-06 14.47.57.excalidraw.md",
     "Excalidraw/Paging 2023-05-08 02.13.03.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/Ax = b.md",
-    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
-    "Operating System/Process Synchronization/Introduction.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
-    "CompilerDesign/Intermediate Code Generation.md",
-    "CompilerDesign/Code Generation.md",
-    "CompilerDesign/Code Optimization.md",
-    "Operating System/Memory Management/Introduction.md",
-    "CompilerDesign/Bottm Up Parsing.md",
-    "Operating System/Process/Process Scheduling.md",
     "Excalidraw/Pasted image 20230507183236.png",
     "Excalidraw/Pasted image 20230507181928.png",
     "Excalidraw/Pasted image 20230507181710.png",
@@ -264,8 +242,6 @@
     "Excalidraw/Pasted image 20230507025314.png",
     "Operating System/Memory Management",
     "Excalidraw/Pasted image 20230506023515.png",
-    "Excalidraw/Pasted image 20230506021301.png",
-    "Excalidraw/Pasted image 20230506020307.png",
     "Engineering Mathematics/Linear Algebra",
     "Engineering Mathematics",
     "CryptoGraphy",

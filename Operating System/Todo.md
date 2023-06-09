@@ -1,9 +1,9 @@
 - [ ] Priority Inversion
 - [x] [[Scheduling Algorithms#^e24540|Check no. of context switch when bt > q]]
-- [ ] Threading
-- [ ] Fork and exec system calls
+- [x] Threading
+- [x] Fork and exec system calls
 - [ ] [[Synchoronization Solution#Swap()|Check  requirements of swap]]
 - [x] Swapping
 - [ ] [[Contiguous Memory Allocation#^cf2703|Low vs high memory]]
-- [ ] [[Demand Paging#Copy - on - write| Copy on write]]
+- [x] [[Demand Paging#Copy - on - write| Copy on write]]
 - [ ] 

@@ -20,6 +20,13 @@ At the start of the process, if no pages of the process are present then it is k
 
 ## Copy - on - write
 
+Whenever you call fork, we replicate the parent process. 
+This is time consuming. 
+
+We only copy when we need to do some changes. 
+i.e 
+when the child process tries to write in any of the page, that particular page is then copied and referenced for the child in future.
+
 
 ----
 
@@ -70,6 +77,7 @@ FIFO suffers from belady's anomaly.
 - We use stack based algorithm to implement LRU. 
 - One another method to implement LRU is Counters. 
 	- We associate a counter with every entry. 
+	- *Reference bit* is used which tells us that the page was referenced in the last clock cycle.
 
 ## Most recently used 
 - Replace the page that was used most recently
