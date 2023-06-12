@@ -122,7 +122,7 @@ If the set contains more than 2 vectors and it at least 2 linear independent vec
 >[!question]
 >Can we have more than 3 independent vectors in $\mathbb{R}^3$?
 >>[!answer]-
->>No we cannot, the $4^th$ vector has to be a linear combination. Because three linear independent vectors would span $\mathb{R}^3$
+>>No we cannot, the $4^th$ vector has to be a linear combination. Because three linear independent vectors would span $\mathbb{R}^3$
 
 >[!question]
 >Can we have more than n independent vectors in $\mathbb{R}^n$?
