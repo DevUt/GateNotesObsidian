@@ -4,32 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c74d36630520cbb6",
+        "id": "68a9cc6283b65faa",
         "type": "split",
         "children": [
           {
-            "id": "a52eb10a89429972",
+            "id": "928529eda6601467",
             "type": "tabs",
             "children": [
               {
-                "id": "1843f98129d6a9ca",
+                "id": "36efb38107ddff7f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "01117e8ca38fa491",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Engineering Mathematics/Linear Algebra/Introduction.md",
+                    "file": "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
                     "mode": "source",
                     "source": false
                   }
@@ -38,11 +26,11 @@
             ]
           },
           {
-            "id": "a8d17fa260a15101",
+            "id": "bd24b65ff0e9c33a",
             "type": "tabs",
             "children": [
               {
-                "id": "0b07a5dd1708446b",
+                "id": "7b160cc37be5c50f",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -63,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 142,
-                        "data": "$ git add -  \u001b[1D",
+                        "data": "$ git add -A\r\ngit ",
                         "rows": 15
                       }
                     }
@@ -218,20 +206,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0b07a5dd1708446b",
+  "active": "7b160cc37be5c50f",
   "lastOpenFiles": [
+    "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
+    "Excalidraw/Gaussian Elimination 2023-06-14 03.09.39.excalidraw.md",
     "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
-    "Excalidraw/System of Linear Equation 2023-06-13 02.39.25.excalidraw.md",
-    "Excalidraw/System of Linear Equation 2023-06-13 01.46.32.excalidraw.md",
     "Engineering Mathematics/Linear Algebra/Ax = b.md",
+    "Excalidraw/Gaussian Elimination 2023-06-14 02.33.39.excalidraw.md",
+    "Operating System/Memory Management/Paging.md",
+    "Excalidraw/System of Linear Equation 2023-06-13 02.39.25.excalidraw.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
+    "Operating System/Todo.md",
+    "Excalidraw/System of Linear Equation 2023-06-13 01.46.32.excalidraw.md",
     "Operating System/Process/Scheduling Algorithms.md",
     "Operating System/Process/Process.md",
     "Operating System/Process Synchronization/Introduction.md",
     "Operating System/Process/Threading.md",
     "Operating System/Virtual Memory Management/Demand Paging.md",
-    "Operating System/Todo.md",
-    "Operating System/Memory Management/Paging.md",
     "Excalidraw/Pasted image 20230610030630.png",
     "Excalidraw/Threading 2023-06-10 03.01.25.excalidraw.md",
     "Excalidraw/Pasted image 20230610025620.png",
@@ -246,10 +237,7 @@
     "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Operating System/Memory Management/Untitled.md",
     "Operating System/Virtual Memory Management",
-    "Operating System/Memory Management/Segmentation.md",
-    "Excalidraw/Paging 2023-05-08 01.39.03.excalidraw.md",
     "Excalidraw/Pasted image 20230608013134.png",
-    "Excalidraw/Paging 2023-06-08 00.49.29.excalidraw.md",
     "Excalidraw/Pasted image 20230606151203.png",
     "Excalidraw/Pasted image 20230507183236.png",
     "Excalidraw/Pasted image 20230507181928.png",
