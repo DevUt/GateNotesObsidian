@@ -70,7 +70,7 @@ How it is stored in memory
 - State
 - List of files
 
-**These attributes are stored in PROCESS CONTROL  BLOCK (PCB)**
+**These attributes are stored in PROCESS CONTROL BLOCK (PCB)**
 PCB is also known as process descriptor
 Stores all GPR , SP etc
 
