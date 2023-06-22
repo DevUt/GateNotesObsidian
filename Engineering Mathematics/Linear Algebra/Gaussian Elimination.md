@@ -266,3 +266,76 @@ Important question
 >d. There is 0 or infinite solution.
 
 
+---
+
+>[!question]
+>GATE 1996
+>$A_{m \times n} x = b$ Which is false?
+>1. System has a solution iff both $A$ and $A|b$ have same rank
+>2. If $m<n$ and $b = 0$ then $\infty$ solutions
+>3. If $m = n, b \neq 0$ system has a unique solution
+>4. System have only trivial solution when $m = n, b = 0$ and rank(A) = n
+
+# Why doing row ops doesn't affect column?
+
+**Number of Linearly Independent row = Number of linearly independent column**
+
+$\displaylines{\begin{align*}\begin{pmatrix}1 & 2 & 3 \\ 2 & 3 & 5 \\ 3 & 4 & 7 \end{pmatrix}& C_{3} = C_{1} +  C_{2} \\ & \big\downarrow R_{1} \rightarrow R_{1} + R_{2} \\\begin{pmatrix}3 & 5  & 8  \\ 2 & 3 & 5 \\ 3 & 4 & 7 \end{pmatrix}& C_{3} = C_{1} + C_{2}  \end{align*} }$
+
+We see performing elementary row operation doesn't change the column dependency.
+On an intuitive level we can understand this by thinking that each columns are affected by the row operation.
+
+>[!question]
+>$\begin{pmatrix}1 & 4 & 6 \\ 2 & 5 & 9 \\ 3 & 6 & 12\end{pmatrix} \xrightarrow{\text{Unknown elementary row op}} \begin{pmatrix}2 & 4 & a \\3 & 6 & b \\ 5 & 7 & c \end{pmatrix}$
+>Whats value of a,b,c ?
+>>[!answer]-
+>>We can observe in the first matrix that $C_{3} = 2C_{1} + C_{2}$
+
+
+**Linear dependence is preserved when doing elementary row operations**
+
+---
+>[!question]
+>For which values of h and k the system has no solution
+>$\begin{align*} x_{1} + 3x_{2} &= k \\ 4x_{1} + hx_{2} &= 8 \end{align*}$
+
+>[!question]
+>True / False
+>1. A matrix can have more than one echelon form 
+>2. If $v$ is a non-zero vector in $R^{n}$, then $v$ is linearly independent set
+>3. A homogeneous system always has infinitely many solutions
+>4. Every $5$ vector in $R^6$ are always linearly independent 
+
+>[!question]
+>For which $h,k$ no solution?
+>$\begin{align*} 2x_{1} + hx_{2} &= -2 \\ x_{1} + 3x_{2} &= k \end{align*}$
+>
+
+>[!question]
+>A $n \times n$ which are true for $A$ if $Ax = 0$ only has trivial solution
+>Which one of them is right and explain why
+>1. The linear system $Ax = 0$ has infinitely many solution
+>2. Columns of $A$ are linearly dependent
+>3. The reduced row echelon form of $A$ has $n-1$ pivot columns
+>4. A is $0$ matrix
+>5. None
+
+>[!question]
+>Find $x_{1}, x_{2}, x_3$ 
+>$x_1\begin{pmatrix}1 \\ 0 \\ -1 \end{pmatrix} + x_{2}\begin{pmatrix}-3 \\ 2 \\ 5\end{pmatrix} + x_{3}\begin{pmatrix}3 \\ -2 \\ -1\end{pmatrix} = \begin{pmatrix}2 \\ 4 \\ -2\end{pmatrix}$
+
+>[!question]
+>$\displaylines{\begin{align*} x_{1} - x_{2} &= 2 \\ 2x_{1} + hx_{2}&= k \end{align*}}$
+>1. For what values of $h$ and $k$ system has no solution?
+>2. Only one solution
+>3. Infinite solution
+
+
+>[!question]
+>Find values for unique solution
+>$\displaylines{\begin{align*} x + y &= 5 \\ 2x + hy &= 3\end{align*}}$
+
+>[!question]
+>Number of linearly independent vectors in following set?
+>$v = \left\{ \begin{pmatrix}a - 2b \\ -b + c \\ -2c\end{pmatrix} \middle| a,b,c \in R \right\}$
+

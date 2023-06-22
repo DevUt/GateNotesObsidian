@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "69a9d47d9db921d4",
+        "id": "7e30e761ca673734",
         "type": "split",
         "children": [
           {
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "74a8abba92dba3b5",
+            "id": "89025b76ca765c28",
             "type": "tabs",
             "children": [
               {
-                "id": "d604d2e39ba2baff",
+                "id": "595c4f9d09355e45",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -51,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 112,
-                        "data": "$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   Engineering Mathematics/Linear Algebra/Gaussian Elimination.md\r\n\u001b[8Cmodified:   Operating System/Process/Process.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mExcalidraw/Gaussian Elimination 2023-06-19 22.22.26.excalidraw.md\r\n\u001b[8CExcalidraw/Gaussian Elimination 2023-06-19 22.51.08.excalidraw.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -A",
+                        "data": "$ git add -A \u001b[1B\u001b[13D",
                         "rows": 15
                       }
                     }
@@ -205,21 +205,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d604d2e39ba2baff",
+  "active": "595c4f9d09355e45",
   "lastOpenFiles": [
     "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
+    "Engineering Mathematics/Linear Algebra/Ax = b.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
+    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Excalidraw/Gaussian Elimination 2023-06-19 22.51.08.excalidraw.md",
     "Excalidraw/Gaussian Elimination 2023-06-19 22.22.26.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Operating System/Virtual Memory Management/Demand Paging.md",
     "Operating System/Process Synchronization/Synchoronization Solution.md",
     "Operating System/Process/Process.md",
     "Excalidraw/Gaussian Elimination 2023-06-14 03.09.39.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/Ax = b.md",
     "Excalidraw/Gaussian Elimination 2023-06-14 02.33.39.excalidraw.md",
     "Operating System/Memory Management/Paging.md",
     "Excalidraw/System of Linear Equation 2023-06-13 02.39.25.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
     "Operating System/Todo.md",
     "Excalidraw/System of Linear Equation 2023-06-13 01.46.32.excalidraw.md",
     "Operating System/Process/Scheduling Algorithms.md",
