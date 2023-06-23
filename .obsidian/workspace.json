@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "7e30e761ca673734",
+        "id": "c7f096cdeb7cff78",
         "type": "split",
         "children": [
           {
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "89025b76ca765c28",
+            "id": "58389bd5217f4d7d",
             "type": "tabs",
             "children": [
               {
-                "id": "595c4f9d09355e45",
+                "id": "db7e035bc435999b",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -51,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 112,
-                        "data": "$ git add -A \u001b[1B\u001b[13D",
+                        "data": "$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   Engineering Mathematics/Linear Algebra/Gaussian Elimination.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -",
                         "rows": 15
                       }
                     }
@@ -205,12 +205,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "595c4f9d09355e45",
+  "active": "db7e035bc435999b",
   "lastOpenFiles": [
     "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
+    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Engineering Mathematics/Linear Algebra/Ax = b.md",
     "Engineering Mathematics/Linear Algebra/Introduction.md",
-    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Excalidraw/Gaussian Elimination 2023-06-19 22.51.08.excalidraw.md",
     "Excalidraw/Gaussian Elimination 2023-06-19 22.22.26.excalidraw.md",
     "Operating System/Virtual Memory Management/Demand Paging.md",

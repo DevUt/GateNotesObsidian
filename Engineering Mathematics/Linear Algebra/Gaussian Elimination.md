@@ -216,6 +216,7 @@ Why? after assigning the free variables they are the only one we can isolate the
 >c. A consistent system with free columns have infinite solution
 >d. A inconsistent system with free columns will have infinite solution.
 >>[!answer]-
+>>a is correct.
 >>c is correct. Try to come up with why.
 
 >[!question]
@@ -243,6 +244,7 @@ Important question
 
 >[!question]
 >Let $Ax = b$ be a system of equation. If Rank(A) $\neq$ Rank(Ab) (We just appended the column of b to Right hand side A). 
+>The system has ....
 >>[!answer]-
 >>Lets establish what can happen with ranks
 >>If $b$ is a linear combination of $A$ then the rank wouldn't increase as rank is the number of linearly independent columns(No. of pivot columns) doesn't increase.
