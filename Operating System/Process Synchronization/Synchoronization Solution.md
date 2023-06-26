@@ -144,7 +144,7 @@ Range is \[0, $\infty$+\]
 
 ## Concept of Busy Waiting
 
-The main disadvantage of the semaphore  definition above it that it requires *busy waiting*.
+The main disadvantage of the semaphore definition above it that it requires *busy waiting*.
 
 A process would continuously P() on the semaphore until it gets it. This wastes CPU cycle. So this type implementation of P and V causes busy waiting.
 

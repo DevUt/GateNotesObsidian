@@ -1,6 +1,6 @@
 Our memory is divided into two portion, one for user and one for operating system. 
 
-We can place the operating system in either high memory or low memory. The major factor in the decision is the location of the interrupt vector. Since the interrupt vector is often in the  low memory. Thus we usually place the operating system in a low memory as well. ^cf2703
+We can place the operating system in either high memory or low memory. The major factor in the decision is the location of the interrupt vector. Since the interrupt vector is often in the low memory. Thus we usually place the operating system in a low memory as well. ^cf2703
 
 >[!homework]
 >Find what the above para is trying to convey.
