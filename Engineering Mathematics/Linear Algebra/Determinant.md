@@ -192,3 +192,38 @@ The $M_{2,3}$ would be calculated
 $\begin{vmatrix}1 & 4 & \square \\ \square & \square & \square \\ -1 & 9 & \square \end{vmatrix}$  
 
 $M_{2,3} = \det(\begin{vmatrix}1 & 4 \\ -1 & 9\end{vmatrix})$
+
+The Co-factor $C_{i,j} = (-1)^{(i+j)}M_{i,j}$  
+
+We can see that $C_{i,j}$ doesn't actually depend upon $a_{ij}$ It doesn't depend upon the row or the column $i,j$!
+
+>[!question]
+>$A_{i,j}$ is Co factor of $a_{ij}$ then $\triangle$ is given by ?
+>1. $a_{11}A_{31} + a_{12}A_{32}+ a_{13}A_33$
+>2. $a_{11}A_{11} + a_{12}A_{21}+a_{13}A_31$
+>3. $a_{21}A_{11}+ a_{22}A_{12} + a_{23}A_13$
+>4. $a_{11}A_{11} + a_{21}A_{21} + a_{31}A_{31}$
+>>[!answer]-
+>>4.
+
+Continuing,
+
+Let's analyze the statement $a_{22}C_{11} + a_{23}C_{12} + a_{21}C_{13}$
+
+We can see the Co-factors are from the first row. We know that the Co-factors don't use element from their row
+
+The above equation calculates the determinant of a matrix that looks like :
+
+$\begin{vmatrix}a_{22} & a_{23} & a_{21} \\ a_{21} & a_{22}& a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}$
+
+If $x$ is multiplied by $C_{i,j}$ can be thought as it is replacing the calculating ${ij}^{th}$ element.
+
+
+**So lets figure out** $a_{21}C_{11} + a_{22}C_{12} + a_{23}C_{13}$ represent
+
+$\begin{vmatrix}a_{21} & a_{22} & a_{23} \\ a_{21} & a_{22}& a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}$
+
+**AND WE KNOW THIS MATRIX IS  0**
+
+**Multiplying a row with the Co-factor of another row results in 0** (you can change row to column  and say the same).
+

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "572b2481165289f6",
+        "id": "98bab33bef4c1b7f",
         "type": "split",
         "children": [
           {
@@ -39,11 +39,11 @@
             "currentTab": 1
           },
           {
-            "id": "f83f5830db84d0ce",
+            "id": "a9af6592fcaf009c",
             "type": "tabs",
             "children": [
               {
-                "id": "6ab2db7748fc64d1",
+                "id": "f02412416d12ba7a",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -64,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 112,
-                        "data": "$ git add -A\u001b[1B\u001b[12D",
+                        "data": "$ git add -A",
                         "rows": 15
                       }
                     }
@@ -218,7 +218,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ab2db7748fc64d1",
+  "active": "f02412416d12ba7a",
   "lastOpenFiles": [
     "Engineering Mathematics/Linear Algebra/Determinant.md",
     "Excalidraw/Pasted image 20230627025534.png",
