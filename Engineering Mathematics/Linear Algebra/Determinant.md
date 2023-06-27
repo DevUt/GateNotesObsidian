@@ -212,7 +212,7 @@ Let's analyze the statement $a_{22}C_{11} + a_{23}C_{12} + a_{21}C_{13}$
 
 We can see the Co-factors are from the first row. We know that the Co-factors don't use element from their row
 
-The above equation calculates the determinant of a matrix that looks like :
+The above equation calculates the determinant of a matrix that looks like : ^868777
 
 $\begin{vmatrix}a_{22} & a_{23} & a_{21} \\ a_{21} & a_{22}& a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}$
 
@@ -227,3 +227,55 @@ $\begin{vmatrix}a_{21} & a_{22} & a_{23} \\ a_{21} & a_{22}& a_{23} \\ a_{31} & 
 
 **Multiplying a row with the Co-factor of another row results in 0** (you can change row to column  and say the same).
 
+# Towards Inverses
+
+## Adjoint
+
+Lets find the product of 
+(i)
+$\overbrace{\begin{vmatrix}a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22}& a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}}^{A}\overbrace{\begin{vmatrix}C_{11} & C_{21} & C_{31} \\ C_{12} & C_{22} & C_{32} \\ C_{13} & C_{23} & C_{33}\end{vmatrix}}^{B} = \begin{vmatrix}\det(A) & 0 & 0 \\ 0 & \det(A) & 0 \\ 0 & 0 & \det(A)\end{vmatrix} = \vert A \vert I$
+
+Now (ii)
+$\overbrace{\begin{vmatrix}C_{11} & C_{21} & C_{31} \\ C_{12} & C_{22} & C_{32} \\ C_{13} & C_{23} & C_{33}\end{vmatrix}}^{B}  \overbrace{\begin{vmatrix}a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22}& a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}}^{A}= \begin{vmatrix}\det(A) & 0 & 0 \\ 0 & \det(A) & 0 \\ 0 & 0 & \det(A)\end{vmatrix} = \vert A \vert I$
+
+In (i),
+
+$A\cdot B = |A|I$ 
+In (ii)
+
+$B\cdot A = |A|I$ 
+
+We see that multiplying $B$ results in Identity matrix
+
+$\displaylines{\begin{align*}A^{-1} &= \frac{1}{|A|}\overbrace{\begin{vmatrix}C_{11} & C_{21} & C_{31} \\ C_{12} & C_{22} & C_{32} \\ C_{13} & C_{23} & C_{33}\end{vmatrix}}^{B} \\ &= \frac{1}{|A|}C^{T}\end{align*}}$
+
+This $C^{T}$ is known as the *adjoint matrix* 
+
+>[!note]
+>Completion of determinant properties
+
+# Cramer's Rule
+
+>[!question]
+How do we find the third column of $A^{-1}$ ?
+>>[!answer]-
+>$A \cdot x = \begin{bmatrix} 0 \\ 0 \\ 1\end{bmatrix}$ 
+>$x = A^{-1}\begin{bmatrix} 0 \\ 0 \\ 1\end{bmatrix}$
+
+
+$$
+\displaylines{
+Ax = b \\ 
+\text{Pre-multiplying } A^{-1} \text{ on both the sides} \\
+x = A^{-1}b \\ 
+x = \frac{1}{|A|}C^{T} b\\
+\begin{bmatrix}x_{1}\\ x_{2}\\ x_{3}\end{bmatrix} = \frac{1}{|A|}\begin{bmatrix}C_{11} & C_{21} & C_{31} \\ C_{12} & C_{22} & C_{32} \\ C_{13} & C_{23} & C_{33}\end{bmatrix}\begin{bmatrix}b_{1}\\b_{2}\\ b_{3}\end{bmatrix}\\ \\
+\text{What we think about } x_{1}? \text{ How would it be calculated?} 
+ \\
+x_{1} = C_{11}b_{1} + C_{21}b_{2} + C_{31}b_{3}
+}
+$$
+
+We know about it from [[Determinant#^868777|above section]] 
+
+Figure it out

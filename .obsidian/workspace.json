@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "98bab33bef4c1b7f",
+        "id": "6ba8f74c50871873",
         "type": "split",
         "children": [
           {
@@ -12,19 +12,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "36efb38107ddff7f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Operating System/Process/Threading.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9c94d186989c85a5",
+                "id": "cb19488949672a53",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -35,17 +23,15 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
-            "id": "a9af6592fcaf009c",
+            "id": "f8e9ee3cfe45bb57",
             "type": "tabs",
             "children": [
               {
-                "id": "f02412416d12ba7a",
+                "id": "24048b543ce2949f",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
@@ -64,12 +50,11 @@
                       },
                       "serial": {
                         "columns": 112,
-                        "data": "$ git add -A",
+                        "data": "$ git add ",
                         "rows": 15
                       }
                     }
-                  },
-                  "pinned": true
+                  }
                 }
               }
             ]
@@ -218,16 +203,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f02412416d12ba7a",
+  "active": "24048b543ce2949f",
   "lastOpenFiles": [
     "Engineering Mathematics/Linear Algebra/Determinant.md",
-    "Excalidraw/Pasted image 20230627025534.png",
-    "Operating System/Process/Threading.md",
-    "Operating System/Process/Process.md",
-    "Operating System/Virtual Memory Management/Demand Paging.md",
+    "Engineering Mathematics/Linear Algebra/Todo.md",
+    "Operating System/Todo.md",
     "Operating System/Memory Management/Paging.md",
-    "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Operating System/Memory Management/Segmentation.md",
+    "Operating System/Memory Management/Contiguous Memory Allocation.md",
+    "Operating System/Virtual Memory Management/Demand Paging.md",
+    "Operating System/Process/Process.md",
+    "Operating System/Process/Threading.md",
+    "Excalidraw/Pasted image 20230627025534.png",
     "Operating System/Memory Management/Introduction.md",
     "Operating System/Process Synchronization/Classical Problems of Synchronization.md",
     "Operating System/Process Synchronization/Synchoronization Solution.md",
@@ -244,7 +231,6 @@
     "Excalidraw/Gaussian Elimination 2023-06-14 03.09.39.excalidraw.md",
     "Excalidraw/Gaussian Elimination 2023-06-14 02.33.39.excalidraw.md",
     "Excalidraw/System of Linear Equation 2023-06-13 02.39.25.excalidraw.md",
-    "Operating System/Todo.md",
     "Excalidraw/System of Linear Equation 2023-06-13 01.46.32.excalidraw.md",
     "Excalidraw/Pasted image 20230610030630.png",
     "Excalidraw/Pasted image 20230610025620.png",
