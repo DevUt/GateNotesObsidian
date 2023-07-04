@@ -14,7 +14,7 @@ $Ax = b$
 
 b is linear combination of the columns of A.
 A is a $n \times n$ matrix 
-x and b only have 1 column
+x and b only have 1 column ^098c5f
 
 >[!question]
 >If $Ax = 0$ has some non trivial solution then columns of A are linearly dependent.

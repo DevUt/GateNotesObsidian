@@ -4,20 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "6ba8f74c50871873",
+        "id": "1947e53944aba931",
         "type": "split",
         "children": [
           {
-            "id": "928529eda6601467",
+            "id": "5c5fe7d79a0dfa0e",
             "type": "tabs",
             "children": [
               {
-                "id": "cb19488949672a53",
+                "id": "f26faf1053052873",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Engineering Mathematics/Linear Algebra/Determinant.md",
+                    "file": "Engineering Mathematics/Linear Algebra/Eigenvalue and Eigenvector.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "80fe580fb4788bce",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
                     "mode": "source",
                     "source": false
                   }
@@ -26,12 +38,13 @@
             ]
           },
           {
-            "id": "f8e9ee3cfe45bb57",
+            "id": "40707a8582b12034",
             "type": "tabs",
             "children": [
               {
-                "id": "24048b543ce2949f",
+                "id": "28dacadf40027e50",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
@@ -50,11 +63,12 @@
                       },
                       "serial": {
                         "columns": 112,
-                        "data": "$ git add ",
+                        "data": "$ git add -A\u001b[1B\u001b[12D",
                         "rows": 15
                       }
                     }
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ]
@@ -203,9 +217,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "24048b543ce2949f",
+  "active": "28dacadf40027e50",
   "lastOpenFiles": [
+    "Engineering Mathematics/Linear Algebra/Eigenvalue and Eigenvector.md",
+    "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 23.42.08.excalidraw.md",
+    "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
     "Engineering Mathematics/Linear Algebra/Determinant.md",
+    "Engineering Mathematics/Linear Algebra/Ax = b.md",
+    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
+    "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 15.22.03.excalidraw.md",
+    "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 15.03.10.excalidraw.md",
     "Engineering Mathematics/Linear Algebra/Todo.md",
     "Operating System/Todo.md",
     "Operating System/Memory Management/Paging.md",
@@ -222,16 +244,8 @@
     "Operating System/Process/Scheduling Algorithms.md",
     "Operating System/Process/Process Scheduling.md",
     "Operating System/Process/Fork() and exec().md",
-    "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
-    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
-    "Engineering Mathematics/Linear Algebra/Ax = b.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
     "Excalidraw/Gaussian Elimination 2023-06-19 22.51.08.excalidraw.md",
     "Excalidraw/Gaussian Elimination 2023-06-19 22.22.26.excalidraw.md",
-    "Excalidraw/Gaussian Elimination 2023-06-14 03.09.39.excalidraw.md",
-    "Excalidraw/Gaussian Elimination 2023-06-14 02.33.39.excalidraw.md",
-    "Excalidraw/System of Linear Equation 2023-06-13 02.39.25.excalidraw.md",
-    "Excalidraw/System of Linear Equation 2023-06-13 01.46.32.excalidraw.md",
     "Excalidraw/Pasted image 20230610030630.png",
     "Excalidraw/Pasted image 20230610025620.png",
     "Operating System/Virtual Memory Management",
