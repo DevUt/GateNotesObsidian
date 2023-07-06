@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1947e53944aba931",
+        "id": "937e341e2d1f9322",
         "type": "split",
         "children": [
           {
@@ -38,11 +38,11 @@
             ]
           },
           {
-            "id": "40707a8582b12034",
+            "id": "e2adadd0ac6b03d0",
             "type": "tabs",
             "children": [
               {
-                "id": "28dacadf40027e50",
+                "id": "5b01f1ad085c4884",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -62,8 +62,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 112,
-                        "data": "$ git add -A\u001b[1B\u001b[12D",
+                        "columns": 83,
+                        "data": "$ git a",
                         "rows": 15
                       }
                     }
@@ -197,12 +197,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,13 +216,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28dacadf40027e50",
+  "active": "5b01f1ad085c4884",
   "lastOpenFiles": [
     "Engineering Mathematics/Linear Algebra/Eigenvalue and Eigenvector.md",
-    "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 23.42.08.excalidraw.md",
     "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
     "Engineering Mathematics/Linear Algebra/Determinant.md",
+    "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 23.42.08.excalidraw.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
     "Engineering Mathematics/Linear Algebra/Ax = b.md",
     "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 15.22.03.excalidraw.md",

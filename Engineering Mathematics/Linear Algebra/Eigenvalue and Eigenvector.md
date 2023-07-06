@@ -2,6 +2,8 @@
 
 Taking the above video as reference. We see that when we see something like $Ax$ it can be thought as if $A$ is transforming every vector in space.
 
+# Introduction
+
 *Eigenvector corresponding to a matrix is the vector which only scales after transformation*
 
 
@@ -56,6 +58,9 @@ So here we can say that there is a linear combination of columns of $B$ such tha
 
 So the $\det(B)$ is $0$ 
 $\det(A - \lambda I) = 0$  
+
+
+**Please note that elementary row or column operations change the  matrix's eigenvalue and eigenvector**
 
 >[!Question]
 >Find the eigenvalue and eigenvector
@@ -166,7 +171,7 @@ $(\lambda - \lambda_{1})^m_{1}(\lambda - \lambda_{2})^{m_{2}}\ldots (\lambda - \
 $m_{1} + m_{2} + \cdots + m_{k} = n$
 
 We would have
-1. atleast $k$ eigenvectors.
+1. at least $k$ eigenvectors.
 2. at most $n$ eigenvectors
 
 >[!question]
@@ -183,4 +188,70 @@ We would have
 >>The power would be at least 7 as it would have 7 independent eigenvectors. At most the power could be at most 7
 >
 >
+
+# Multiplicity
+
+$(\lambda - \lambda_{1})^{m \leftarrow \text{arithmetic multiplicty}}$ 
+
+The number of Linearly independent eigenvector corresponding to the $\lambda_1$ is the *Geometric multiplicity* of $\lambda_1$ 
+
+**AM $\geq$ GM**  
+
+
+## Symmetric Matrices
+
+Are there matrices which always have $n$ independent eigenvectors despite one or more eigenvalues are repeating.
+
+Yes! Real symmetric matrices.
+
+>[!info]
+>A is symmetric $\iff$  $A = A^T$
+>A is symmetric $\iff$ for every $i,j \; a_{ij} = a_{ji}$
+>
+
+For every symmetric matrix, AM = GM.
+There are $n$ linearly independent eigenvectors.
+
+>[!property]
+>Eigenvectors corresponding to different eigenvalues are orthogonal
+>>[!answer]-
+>>Let $\lambda_1$ and $\lambda_2$ be the two different eigenvalue.
+>>Let $\lambda_{1}$ and $\lambda_2$ be the two different eigenvalue and $x_{1}, x_2$ be the corresponding eigenvector.
+>>
+>>$Ax_1 = \lambda_{1}x_{1}$  $Ax_2 = \lambda_{2}x_{2}$  
+>> Premultiply ${x_2}^{T}$ 
+>> $\displaylines{\begin{align*}{x_2}^{T}Ax_{1} &= \lambda_{1}{x_2}^{T}x_{1} \\ ({x_2}^{T}A)x_{1} &= \lambda_{1}{x_2}^{T}x_{1} \\ (A^{T}x_{2})^{T}x_{1} &= \lambda_{1}{x_{2}}^{T}x_{1} \\ (Ax_{2})^{T}x_{1} &= \lambda_{1}{x_{2}}^{T}x_{1} \\ (\lambda_{2}x_{2})^{T}x_{1} &= \lambda_{1}{x_{2}}^{T}x_{1} \\ \lambda_{2}x_{2}^{T}x_{1} &= \lambda_{1}{x_{2}}^{T}x_{1} \\ \lambda_{2}x_{2}^{T}x_{1} - \lambda_{1}{x_{2}}^{T}x_{1} &= 0 \\ (\lambda_{2}-\lambda_{1})(x_{2}^{T}x_{1}) &= 0 \\ \text{We know that} \lambda_{2} &\neq \lambda_{1} \\ &\implies x_{2}^{T}x_{1} = 0\end{align*}}$
+>> We know that $x_{2}^{T}x_{1}$ is just the dot product of $x_2,x_1$ 
+
+>[!property]
+>EACH eigenvector is linearly independent.
+
+>[!question]
+>For real symmetric matrix the characteristic equation is $(\lambda_{1}-1)^{3}(\lambda - 5)^{7}(\lambda - 11)^1$ What is the number of linearly independent eigenvectors?
+>>[!answer]-
+>>$3+7+1 = 11$
+
+
+
+# Few Properties
+
+- Determinant of any matrix is product of the eigenvalue.
+- Trace is sum of eigenvalues.
+
+>[!question]
+>Let $A$ be $n \times n$ matrix with characteristic polynomial $p(\lambda) = \lambda(\lambda-2)(\lambda - 3)^2$ 
+>What you can determine from info
+>1. $n$
+>2. Trace of $A$
+>3. $\det(A)$
+>4. Whether $A$ is symmetric
+>5. Eigenvalues of $A$
+
+
+>[!question]
+>One of the eigenvalue of 
+>$A = \begin{bmatrix}3 & 1 & 4 \\ c & 1 & 5 \\ c & 1 & 5\end{bmatrix}$ is $\lambda = 3$.
+>$c$ is some constant. Find other two eigenvalue.
+
+
 
