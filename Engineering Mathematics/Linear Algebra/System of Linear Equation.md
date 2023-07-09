@@ -40,12 +40,12 @@ $\begin{pmatrix}a_{11} & a_{12} & \cdots & a_{1n} \\ \vdots \\ a_{m1} & a_{m2} &
 >Statement: If $m < n$ then $Ax = b$ always have a solution.
 >>[!answer]-
 >>False, 
->>Because we have $n$ vectors of dimension $n$.
+>>Because we have $n$ vectors of dimension $m$.
 >>The question doesn't mention, whether at least $m$ vectors are L.I. 
 >>If there were $m$ L.I vectors then we would always have a solution.
 >>We would infact have infinite solutions. The set of column vectors would have been L.D.
 >>![[System of Linear Equation 2023-06-13 01.46.32.excalidraw]]
->>So when number of equations > no. of variables 
+>>So when number of equations < no. of variables 
 >>There are two cases
 >>1. No solution (We don't have $m$ L.I vector)
 >>2. Infinite solutions. 

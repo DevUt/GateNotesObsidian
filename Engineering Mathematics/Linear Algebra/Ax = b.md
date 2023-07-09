@@ -1,4 +1,4 @@
-b# Matrix Multiplication
+# Matrix Multiplication
 
 1) $\begin{bmatrix}2 & 4 \\ 3 & 5\end{bmatrix}$ $\begin{bmatrix}1 \\ 0\end{bmatrix}$ = $\begin{pmatrix}2 \\ 3\end{pmatrix}$
 $1\begin{pmatrix}2 \\ 3\end{pmatrix} + 0 \begin{pmatrix}4 \\ 5\end{pmatrix}$
