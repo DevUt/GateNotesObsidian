@@ -6,6 +6,7 @@ $$\begin{pmatrix}
 & 1 & -6 & 0 \\ 0 & \require{enclose}
 {\scriptstyle \enclose{circle}{\kern .06em 1\kern .06em}}  & -2 & 1 \\ 0 & 0 & 0 & \require{enclose}
 {\scriptstyle \enclose{circle}{\kern .06em -6\kern .06em}}\end{pmatrix}$$
+
 - All non-zeros rows are above any rows of all zeros.
 - All entries in a column below leading entry are zero
 - Leading entry are nonzero leftmost entry
@@ -49,9 +50,9 @@ $$
 
 # Rank
 
-- No. of Linearly independent rows
-- No of linearly independent columns
-- Pivot elements in echelon form
+- No. of Linearly independent rows =
+- No of linearly independent columns =
+- Pivot elements in echelon form =
 - Non zero rows in echelon form
 
 >[!question]
@@ -104,7 +105,7 @@ $\displaylines{ R_{3} \rightarrow R_{3} - \frac{3}{2} R_{2} \\ \begin{pmatrix}3 
 
 
 ![[Gaussian Elimination 2023-06-14 03.09.39.excalidraw]]
-
+	
 >[!question]
 >If homogeneous system with $5$ equation and $5$ unknown always have a unique solution.
 >>[!answer]-
@@ -252,7 +253,7 @@ Important question
 >>Finally
 >>$\begin{array}{drec}\text{b is not linear combination of A} & \text{Rank}(Ab) & = & \text{Rank}(A) \\ \text{b is linear combination of A} &  \text{Rank}(Ab) & = & \text{Rank}(A) + 1 \end{array}$
 
-![[Gaussian Elimination 2023-06-19 22.51.08.excalidraw]]
+![[Gaussian Elimination 2023-06-19 22.51.08.excalidraw]] ^6d70c6
 
 >[!question]
 >Consider a matrix of size $m \times n$ 
@@ -277,6 +278,11 @@ Important question
 >2. If $m<n$ and $b = 0$ then $\infty$ solutions
 >3. If $m = n, b \neq 0$ system has a unique solution
 >4. System have only trivial solution when $m = n, b = 0$ and rank(A) = n
+>>[!answer]-
+>>1. True, ![[#^6d70c6]]
+>>2. True, We know that a trivial solution exists, and the rank must be < n, hence infinite solutions.
+>>3. False, not enough to have a unique solution
+>>4. True, rank = n implies unique solution when it exists.
 
 # Why doing row ops doesn't affect column?
 
@@ -300,44 +306,98 @@ On an intuitive level we can understand this by thinking that each columns are a
 >[!question]
 >For which values of h and k the system has no solution
 >$\begin{align*} x_{1} + 3x_{2} &= k \\ 4x_{1} + hx_{2} &= 8 \end{align*}$
+>>[!answer]-
+>>$\left[\begin{array}{rr|r} 1 & 3 & k \\ 4 & h & 8 \end{array}\right]$
+>>
+>>$\left[\begin{array}{rr|r} 1 & 3 & k \\ 0 & h - 12  & 8 - 4k\end{array}\right]$
+>>
+>>We know that when $\left[\begin{array}{rrrr|r}0 & 0 & \cdots & 0 & \text{nonzero}\end{array}\right]$ gives no solution.
+>>
+>>Another way,
+>>We know that if Rank(A) $\neq$ Rank(Ab) then no solution.
+>>If $h = 12, k \neq 2$ we have Rank(A) = 1.  Rank(Ab) = 2
+
 
 >[!question]
 >True / False
 >1. A matrix can have more than one echelon form 
->2. If $v$ is a non-zero vector in $R^{n}$, then $v$ is linearly independent set
+>2. If $v$ is a non-zero vector in $R^{n}$, then $\{v\}$ is linearly independent set
 >3. A homogeneous system always has infinitely many solutions
 >4. Every $5$ vector in $R^6$ are always linearly independent 
+>>[!answer]-
+>>1. Yes, it depends upon the row transformations. E.g after getting echelon form we can divide by 2 and it still remains in echelon form. Reduced Row echelon are unique.
+>>2. True, $c_0v_{0}=0$ only $c_{0}= 0$ can be possible as $v \neq 0$.
+>>3. False, We have no other information.
+>>4. False.
 
 >[!question]
->For which $h,k$ no solution?
+>For which $h,k$ infinite solution?
 >$\begin{align*} 2x_{1} + hx_{2} &= -2 \\ x_{1} + 3x_{2} &= k \end{align*}$
->
+>>[!answer]-
+>>$R_{1} \leftrightarrow R_2$
+>>$R_{2} \rightarrow 2R_{2} - R_{1}$
+>>
+>>$\left[\begin{array}{rr|r} 1 & 3 & k \\ 0 & h-6 & - 2 - 2k \end{array}\right]$
+>>The Rank(A) = Rank(Ab) for a solution. 
+>>We need Rank < n for infinite solution. In $2 \times 2$ matrix the rank < n could be 1.
+>>So we make $h = 6$ and for solution $k = -1$
+
 
 >[!question]
->A $n \times n$ which are true for $A$ if $Ax = 0$ only has trivial solution
+>$A_{n \times n}$ which are true for $A$ if $Ax = 0$ only has trivial solution
 >Which one of them is right and explain why
 >1. The linear system $Ax = 0$ has infinitely many solution
 >2. Columns of $A$ are linearly dependent
 >3. The reduced row echelon form of $A$ has $n-1$ pivot columns
 >4. A is $0$ matrix
 >5. None
+>>[!answer]-
+>>True, 2.
 
 >[!question]
 >Find $x_{1}, x_{2}, x_3$ 
 >$x_1\begin{pmatrix}1 \\ 0 \\ -1 \end{pmatrix} + x_{2}\begin{pmatrix}-3 \\ 2 \\ 5\end{pmatrix} + x_{3}\begin{pmatrix}3 \\ -2 \\ -1\end{pmatrix} = \begin{pmatrix}2 \\ 4 \\ -2\end{pmatrix}$
+>>[!answer]-
+>>$\left[\begin{array}{rrr|r}1 & -3 & 3 & 2 \\ 0 & 2 & -2 & 4 \\ - 1 & 5 & -1 & -2\end{array}\right]$
+>>
+>>$R_{3} \rightarrow R_{3} + R_{1}$
+>>$R_{3} \rightarrow R_{3} - R_{2}$
+>>
+>>$\left[\begin{array}{rrr|r}1 & -3 & 3 & 2 \\ 0 & 2 & -2 & 4 \\ 0 & 0 & 4 & -4\end{array}\right]$
+>>$x = \begin{bmatrix}8 \\ 1 \\ -1\end{bmatrix}$
 
 >[!question]
 >$\displaylines{\begin{align*} x_{1} - x_{2} &= 2 \\ 2x_{1} + hx_{2}&= k \end{align*}}$
 >1. For what values of $h$ and $k$ system has no solution?
 >2. Only one solution
 >3. Infinite solution
-
+>
+>For what values of $h$ and $k$ system has no solution?
+>>[!answer]-
+>>$\left[\begin{array}{rr|r}1 & -1 & 2 \\ 0 & h+2 & k-4 \end{array}\right]$
+>>$k \neq -4 \; h = -2$
+>
+>Only one solution
+>>[!answer]-
+>>$\left[\begin{array}{rr|r}1 & -1 & 2 \\ 0 & h+2 & k-4 \end{array}\right]$
+>>$h \neq 2 \; R \in \mathbb{R}$
+>
+>Infinite solultion
+>>[!answer]-
+>>$\left[\begin{array}{rr|r}1 & -1 & 2 \\ 0 & h+2 & k-4 \end{array}\right]$
+>>$h \neq  -2 \; k = 4$
 
 >[!question]
 >Find values for unique solution
 >$\displaylines{\begin{align*} x + y &= 5 \\ 2x + hy &= 3\end{align*}}$
+>>[!answer]-
+>>$\left[\begin{array}{rr|r}1 & 1 & 5 \\ 0 & h-2 & 7 \end{array}\right]$
+>>$h \neq 2$
 
 >[!question]
 >Number of linearly independent vectors in following set?
 >$v = \left\{ \begin{pmatrix}a - 2b \\ -b + c \\ -2c\end{pmatrix} \middle| a,b,c \in R \right\}$
+>>[!answer]-
+>>3,
+>>$a\begin{bmatrix}1 \\ 0 \\ 0\end{bmatrix} + b\begin{bmatrix}-2 \\ 1 \\ 0\end{bmatrix} + c\begin{bmatrix}0 \\ 1 \\ -2\end{bmatrix}$
 

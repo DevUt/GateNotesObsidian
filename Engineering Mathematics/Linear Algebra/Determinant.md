@@ -37,7 +37,7 @@ $\begin{vmatrix}a + a' & b + b' \\ c & d\end{vmatrix} = \begin{vmatrix}a & b \\ 
 
 >[!question]
 >Can we ?
->$\begin{vmatrix}a + p & b + q \\ c + r & d + w \end{vmatrix} = \begin{vmatrix}a & b \\ c & d\end{vmatrix} + \begin{vmatrix}p & q \\ r & q\end{vmatrix}$ 
+>$\begin{vmatrix}a + p & b + q \\ c + r & d + w \end{vmatrix} = \begin{vmatrix}a & b \\ c & d\end{vmatrix} + \begin{vmatrix}p & q \\ r & w\end{vmatrix}$ 
 >>[!answer]-
 >>No!
 >>We can only expand one row at a time
@@ -80,7 +80,6 @@ Try to prove them using only the property stated above.
 >>For $k \neq 1$
 >>$t = 0$
 
-
 >[!property]
 >Determinant of diagonal matrix is product of diagonal elements 
 >>[!answer]-
@@ -109,7 +108,7 @@ Try to prove them using only the property stated above.
 >>$B = A$
 
 >[!question]
-> $|A_{4\times 4}| = 11 \, \text{Let} \, a_{1},a_{2}, a_{3}, a_{4}$ rows of $A$  If $B$ is obtained by replacing $a_{3}$ by $7a_{1} + a_{3}$
+> $|A_{4\times 4}| = 11 \, \text{Let} \, a_{1},a_{2}, a_{3}, a_{4}$ rows of $A$  If $B$ is obtained by replacing $a_{3}$ by $3a_{1} + 7a_{3}$
 >>[!answer]-
 >>$|B| = 7|A|$
 
@@ -121,7 +120,7 @@ From the above question we can see that when we do $R_{i} \rightarrow R_{i} + kR
 
 We can actually calculate the determinant using the basic properties.
 
-$\displaylines{\begin{align*}\begin{vmatrix}a & b \\ c & d\end{vmatrix} &= \begin{vmatrix}a & 0 \\ c & d\end{vmatrix} + \begin{vmatrix}0 & b \\ c & d\end{vmatrix} \\ &= \begin{vmatrix}a & 0 \\ 0 & d\end{vmatrix} + \cancel{\begin{vmatrix}a & 0 \\ c & 0\end{vmatrix}}+\cancel{\begin{vmatrix}0 & b \\ 0 & d\end{vmatrix}} +\begin{vmatrix}0 & b \\ c & 0\end{vmatrix} \\ &= ab\begin{vmatrix}1 & 0 \\ 0 & 1\end{vmatrix}- cd\begin{vmatrix}1 & 0 \\ 0 & 1\end{vmatrix} \\ &= ab - cd\end{align*}}$
+$\displaylines{\begin{align*}\begin{vmatrix}a & b \\ c & d\end{vmatrix} &= \begin{vmatrix}a & 0 \\ c & d\end{vmatrix} + \begin{vmatrix}0 & b \\ c & d\end{vmatrix} \\ &= \begin{vmatrix}a & 0 \\ 0 & d\end{vmatrix} + \cancel{\begin{vmatrix}a & 0 \\ c & 0\end{vmatrix}}+\cancel{\begin{vmatrix}0 & b \\ 0 & d\end{vmatrix}} +\begin{vmatrix}0 & b \\ c & 0\end{vmatrix} \\ &= ad\begin{vmatrix}1 & 0 \\ 0 & 1\end{vmatrix}- bc\begin{vmatrix}1 & 0 \\ 0 & 1\end{vmatrix} \\ &= ad - bc\end{align*}}$
 
 If we expand $n \times n$ matrix, we would get $n!$ terms in final
 

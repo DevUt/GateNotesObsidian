@@ -4,29 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "7e973e75e31af018",
+        "id": "959ba91bf8eaede2",
         "type": "split",
         "children": [
           {
-            "id": "4a45582bdea0a65d",
+            "id": "019998743452de56",
             "type": "tabs",
             "children": [
               {
-                "id": "756acabd761047cf",
+                "id": "ffb6deb97387e958",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
           },
           {
-            "id": "d7836dc3e307ef72",
+            "id": "8e7b88cefaab4c31",
             "type": "tabs",
             "children": [
               {
-                "id": "3715df656585f8a3",
+                "id": "95285fb979c4e850",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -47,7 +51,7 @@
                       },
                       "serial": {
                         "columns": 112,
-                        "data": "$ git add -A",
+                        "data": "$ git add -A\u001b[1B\u001b[12D",
                         "rows": 15
                       }
                     }
@@ -201,20 +205,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3715df656585f8a3",
+  "active": "95285fb979c4e850",
   "lastOpenFiles": [
+    "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
+    "Engineering Mathematics/Linear Algebra/Determinant.md",
+    "Engineering Mathematics/Linear Algebra/Eigenvalue and Eigenvector.md",
+    "Excalidraw/Drawing 2023-07-12 00.20.44.excalidraw.md",
+    "Excalidraw/Gaussian Elimination 2023-06-14 03.09.39.excalidraw.md",
+    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
+    "Excalidraw/Gaussian Elimination 2023-07-11 00.39.23.excalidraw.md",
+    "Excalidraw/Drawing 2023-07-10 23.40.20.excalidraw.md",
+    "Excalidraw/Drawing 2023-07-10 22.35.54.excalidraw.md",
+    "Engineering Mathematics/Linear Algebra/Introduction.md",
     "Operating System/Virtual Memory Management/Demand Paging.md",
     "Operating System/Process/Threading.md",
     "Operating System/Process/Fork() and exec().md",
     "Excalidraw/Drawing 2023-07-10 00.52.29.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/Gaussian Elimination.md",
     "Engineering Mathematics/Linear Algebra/Ax = b.md",
-    "Engineering Mathematics/Linear Algebra/System of Linear Equation.md",
     "Operating System/Memory Management/Contiguous Memory Allocation.md",
     "Excalidraw/Drawing 2023-07-09 22.28.19.excalidraw.md",
-    "Engineering Mathematics/Linear Algebra/Introduction.md",
-    "Engineering Mathematics/Linear Algebra/Eigenvalue and Eigenvector.md",
-    "Engineering Mathematics/Linear Algebra/Determinant.md",
     "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 23.42.08.excalidraw.md",
     "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 15.22.03.excalidraw.md",
     "Excalidraw/Eigenvalue and Eigenvector 2023-07-04 15.03.10.excalidraw.md",
@@ -225,11 +234,6 @@
     "Operating System/Process/Process.md",
     "Excalidraw/Pasted image 20230627025534.png",
     "Operating System/Memory Management/Introduction.md",
-    "Operating System/Process Synchronization/Classical Problems of Synchronization.md",
-    "Operating System/Process Synchronization/Synchoronization Solution.md",
-    "Operating System/Process Synchronization/Introduction.md",
-    "Operating System/Process/Scheduling Algorithms.md",
-    "Operating System/Process/Process Scheduling.md",
     "Excalidraw/Pasted image 20230610030630.png",
     "Excalidraw/Pasted image 20230610025620.png",
     "Operating System/Virtual Memory Management",
